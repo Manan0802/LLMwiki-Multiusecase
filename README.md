@@ -44,101 +44,189 @@ To achieve 90%+ consistency across parallel executions, the engine:
 
 ## 📊 Illustrative Architecture Flowcharts
 
-### High-Level System Architecture & Multi-Usecase Router
-```
-                     ┌────────────────────────┐
-                     │   CLI / Script Trigger  │
-                     └───────────┬────────────┘
-                                 │
-         ┌───────────────────────┼──────────────────────┐
-         ▼                       ▼                      ▼
-  [ Usecase 1 ]           [ Usecase 2 ]          [ Usecase 3 ]
-  Seller Specs            Buyer Personas         Wiki Chatbot
- (main.py --mcat)     (buyer_persona_main.py)   (chat_main.py)
-         │                       │                      │
-         └───────────────────────┼──────────────────────┘
-                                 │
-                                 ▼
-                     ┌────────────────────────┐
-                     │  Sanitize Slug & Load  │
-                     │  Ground-Truth Files    │
-                     │  (index/logs/ref.md)   │
-                     └───────────┬────────────┘
-                                 │
-                                 ▼
-                     ┌────────────────────────┐
-                     │ validate_wiki_node     │
-                     │ (LangGraph Node 1)     │
-                     └───────────┬────────────┘
-                                 │
-                        [Wiki File Found?]
-                       ┌─────────┴─────────┐
-                    YES│                  NO│
-                       ▼                    ▼
-             ┌──────────────────┐     ┌───────────┐
-             │ create_specs_node│     │   Abort   │
-             │ (LangGraph Node2)│     │  (State:  │
-             └─────────┬────────┘     │  'abort') │
-                       │              └───────────┘
-                [Invoke Gemini]
-               (Thinking Active)
-                       │
-                       ▼
-             ┌──────────────────┐
-             │ Extracted Output │
-             │   Post-Audited   │
-             └─────────┬────────┘
-                       │
-                       ▼
-            ┌────────────────────┐
-            │   JSON / Python    │
-            │  Structured Saved  │
-            └────────────────────┘
-```
-
-### End-to-End Control Flow & Graph Transition Details
-Below is the technical orchestration of the stateful LangGraph workflow representing the end-to-end data pipeline.
+### 1. Unified System Topology & Multi-Usecase Dispatcher
+This diagram shows the system initialization router, showing how incoming CLI queries map to target workloads, sanitize slugs, and lazy-load dynamic files from the local filesystem.
 
 ```mermaid
 graph TD
-    %% Styling & Colors
-    classDef startEnd fill:#d4ebf2,stroke:#0e76a8,stroke-width:2px;
+    classDef triggerClass fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
+    classDef routerClass fill:#fff3e0,stroke:#e65100,stroke-width:2px;
+    classDef loadClass fill:#fafafa,stroke:#616161,stroke-width:2px;
+    classDef edgeClass fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+
+    User(["👤 CLI/Script User Entry Point"]) :::triggerClass
+    
+    %% Triggers
+    User -->|python main.py| CLI_Seller["💼 Usecase 1: Seller Specs"]:::routerClass
+    User -->|python buyer_persona_main.py| CLI_Buyer["👤 Usecase 2: Buyer Personas"]:::routerClass
+    User -->|python chat_main.py| CLI_Chat["💬 Usecase 3: Wiki Chatbot"]:::routerClass
+
+    %% Category Normalization
+    CLI_Seller -->|Extract mcat_name| Slugify["🔄 Sanitize Slug & Normalization <br> (aac_blocks / pvc_pipes)"]:::routerClass
+    CLI_Buyer -->|Extract mcat_name| Slugify
+    CLI_Chat -->|Extract mcat_name| Slugify
+
+    %% Lazy-Loading Ground Truth
+    Slugify -->|Lazy-load Category Output Folder| FileLoader["📂 Directory Loader <br> WIKI_DIR / output_slug"]:::loadClass
+    
+    FileLoader -->|Read index.md| LoadIndex["📑 Loaded Wiki Index"]:::loadClass
+    FileLoader -->|Read slug.md| LoadArticle["📖 Loaded Wiki Article"]:::loadClass
+    FileLoader -->|Read references.md| LoadRefs["📜 Loaded Wiki References"]:::loadClass
+
+    %% Staged to LangGraph States
+    LoadIndex --> StateInit["⚙️ State Initialization <br> (FlowState / BuyerPersonaFlowState / ChatState)"]:::edgeClass
+    LoadArticle --> StateInit
+    LoadRefs --> StateInit
+```
+
+---
+
+### 2. Deep Seller Specification Pipeline (`main.py`)
+This diagram maps out the core LangGraph transition states, checking filesystem gates, invoking Gemini, performing the hidden self-audit rules, and parsing output blocks.
+
+```mermaid
+graph TD
+    classDef initClass fill:#eceff1,stroke:#455a64,stroke-width:2px;
+    classDef checkClass fill:#ede7f6,stroke:#5e35b1,stroke-width:2px;
+    classDef geminiClass fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+    classDef auditClass fill:#fbe9e7,stroke:#d84315,stroke-width:2px;
+    classDef doneClass fill:#e0f2f1,stroke:#00695c,stroke-width:2px;
+
+    %% Entry
+    Start["🏁 Initialize FlowState <br> (mcat_id, mcat_name)"] :::initClass
+    
+    %% Node 1
+    Start --> Node_Validate["🔎 validate_wiki_node"]:::checkClass
+    Node_Validate --> Check_File{Does wiki_path.exists?}:::checkClass
+    
+    Check_File -->|NO| Exit_Abort["❌ Abort Flow <br> (status='abort')"]:::auditClass
+    Check_File -->|YES| Load_State["💾 Populate FlowState <br> (wiki_content, wiki_index, wiki_references)"]:::checkClass
+
+    %% Node 2
+    Load_State --> Node_Create["🧠 create_specs_node"]:::checkClass
+    Node_Create --> Prep_Prompts["📜 Load skills/seller_specs/ <br> (agent_prompt.md + spec_creation.md)"]:::checkClass
+    
+    %% Gemini Execution Block
+    Prep_Prompts --> LLM_Call["🤖 Call LLM Gateway <br> (google/gemini-2.5-pro, temp=0, thinking=ON)"]:::geminiClass
+    
+    subgraph Self_Audit_Reasoning [Internal LLM Chain-of-Thought Audit Steps]
+        Audit_1["📐 Dim Rule Check: <br> Units attached to values, NOT spec names"]:::auditClass
+        Audit_2["📊 Tier Counter Check: <br> Primary (2-3) | Secondary (2-3) | Tertiary (max 4)"]:::auditClass
+        Audit_3["❌ Banned Words Check: <br> No 'Other', 'Custom', 'N/A', 'Generic'"]:::auditClass
+        Audit_4["🔤 Symbol Check: <br> Use en-dash (–), m², m³, °C"]:::auditClass
+        Audit_5["🏷️ Brand Rule Check: <br> Concentration Decision Tree"]:::auditClass
+        
+        Audit_1 --> Audit_2 --> Audit_3 --> Audit_4 --> Audit_5
+    end
+    
+    LLM_Call --> Self_Audit_Reasoning
+    Self_Audit_Reasoning --> LLM_Response["📝 Raw Output Response Generation"]:::geminiClass
+
+    %% Post Parsing
+    LLM_Response --> Parser{"Parse JSON Block?"}:::checkClass
+    
+    Parser -->|Success| Save_Final["💾 Save specs_output/{mcat_id}_final_specs.json"]:::doneClass
+    Parser -->|Fail| Save_Err["💾 Save raw_output.txt & Raise RuntimeError"]:::auditClass
+    
+    LLM_Response --> Save_Thinking["💾 Save raw_thinking/{mcat_id}_thinking.json"]:::doneClass
+
+    Save_Final --> End_Success["🏁 Exit Flow <br> (status='complete')"]:::doneClass
+    Save_Err --> End_Fail["🏁 Exit Error"]:::auditClass
+```
+
+---
+
+### 3. Buyer Persona Specification Pipeline (`buyer_persona_main.py`)
+This diagram shows the execution flow for Usecase 2, emphasizing its strict limits (2 dimensions, 6 values) and the advanced AST python list extraction logic.
+
+```mermaid
+graph TD
+    classDef initClass fill:#eceff1,stroke:#455a64,stroke-width:2px;
+    classDef checkClass fill:#ede7f6,stroke:#5e35b1,stroke-width:2px;
+    classDef geminiClass fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+    classDef auditClass fill:#fbe9e7,stroke:#d84315,stroke-width:2px;
+    classDef doneClass fill:#e0f2f1,stroke:#00695c,stroke-width:2px;
+
+    %% Entry
+    Start["🏁 Initialize BuyerPersonaFlowState <br> (mcat_id, mcat_name)"] :::initClass
+    
+    %% Node 1
+    Start --> Node_Validate["🔎 validate_wiki_node"]:::checkClass
+    Node_Validate --> Check_File{Does wiki_path.exists?}:::checkClass
+    
+    Check_File -->|NO| Exit_Abort["❌ Abort Flow <br> (status='abort')"]:::auditClass
+    Check_File -->|YES| Load_State["💾 Load Files to State"]:::checkClass
+
+    %% Node 2
+    Load_State --> Node_Create["🧠 create_specs_node"]:::checkClass
+    Node_Create --> Prep_Prompts["📜 Load skills/buyer_persona_specs/ <br> (agent_prompt.md + buyer_persona_spec_creation_skill.md)"]:::checkClass
+    
+    Prep_Prompts --> LLM_Call["🤖 Call LLM Gateway <br> (gemini-2.5-pro, temp=0, thinking=ON)"]:::geminiClass
+
+    subgraph Buyer_Constraints [Strict Operational Constraints Checked]
+        Limit_Dim["📐 At most 2 Dimensions"]:::auditClass
+        Limit_Val["📊 At most 6 Values per Dimension"]:::auditClass
+        Limit_Char["🔤 Under 25 Characters per Value"]:::auditClass
+        Ban_Product["🚫 Product Specs Banned <br> (No thickness, material, dimensions)"]:::auditClass
+        Grounded["📖 Grounded strictly in Wiki language"]:::auditClass
+        
+        Limit_Dim --> Limit_Val --> Limit_Char --> Ban_Product --> Grounded
+    end
+
+    LLM_Call --> Buyer_Constraints
+    Buyer_Constraints --> LLM_Response["📝 Generated List Output"]:::geminiClass
+
+    %% Extraction Node
+    LLM_Response --> Parser_Gate{"Extract Python List?"}:::checkClass
+    
+    Parser_Gate -->|JSON Match| Save_Specs["💾 Save buyer_persona_spec_output/{mcat_id}_final_buyer_persona_specs.json"]:::doneClass
+    Parser_Gate -->|AST Literal Match| Save_Specs
+    Parser_Gate -->|Fail| Save_Err["💾 Save buyer_persona_raw_output.txt & Fail"]:::auditClass
+
+    Save_Specs --> End_Success["🏁 Exit Flow <br> (status='complete')"]:::doneClass
+```
+
+---
+
+### 4. Stateful Source-Grounded Chatbot Session (`chat_main.py`)
+This diagram visualizes the multi-turn conversational loop, showing how query context is loaded, formatted into message objects, answered, and stored.
+
+```mermaid
+graph TD
+    classDef initClass fill:#eceff1,stroke:#455a64,stroke-width:2px;
     classDef nodeClass fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
-    classDef llmNode fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
-    classDef fileNode fill:#fff8e1,stroke:#f57f17,stroke-width:1px;
-    classDef decision fill:#ede7f6,stroke:#5e35b1,stroke-width:2px;
+    classDef loopClass fill:#fffde7,stroke:#fbc02d,stroke-width:2px;
+    classDef checkClass fill:#ede7f6,stroke:#5e35b1,stroke-width:2px;
+    classDef geminiClass fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
 
-    %% Elements
-    Trigger([👤 CLI Trigger / main.py]) --> StateInit[Initialize FlowState / BuyerPersonaFlowState]:::nodeClass
+    %% Session Start
+    Init_Session["🏁 Session Trigger: chat_main.py <br> (mcat_name)"] :::initClass
+    Init_Session --> Node_Validate["🔎 validate_wiki_node"]:::checkClass
     
-    subgraph Local_Knowledge [Ground Truth Knowledge Sources]
-        W_Index[📝 output/output_slug/index.md]:::fileNode
-        W_Main[📖 output/output_slug/slug.md]:::fileNode
-        W_Ref[📜 output/output_slug/references.md]:::fileNode
-    end
+    Node_Validate --> Check_File{Does wiki exist?}:::checkClass
+    Check_File -->|NO| Exit_Abort["❌ Terminate Session"]:::checkClass
+    Check_File -->|YES| Load_State["💾 Cache Wiki Files to Session <br> (wiki_content, wiki_index, wiki_references)"]:::checkClass
 
-    StateInit --> Node1[🔎 validate_wiki_node]:::nodeClass
-    Local_Knowledge -. Reading filesystem .-> Node1
+    %% Conversation Loop
+    Load_State --> Loop_Start(["🔄 Begin Interactive Chat Loop"]) :::loopClass
     
-    Node1 --> Dec1{Check status}:::decision
-    Dec1 -- "status == 'abort'" --> Abort([❌ Abort & Log Warning]):::startEnd
-    Dec1 -- "status == 'wiki_found'" --> Node2[🧠 create_specs_node / chat_node]:::llmNode
+    Loop_Start --> Get_Input["👤 User Input Query <br> (Type message, 'exit' to quit)"]:::loopClass
     
-    subgraph Rulebooks [Skills Configuration]
-        Skill1[📜 skills/category/agent_prompt.md]:::fileNode
-        Skill2[📜 skills/category/spec_creation.md]:::fileNode
-    end
+    Get_Input -->|'exit' / 'quit'| End_Session(["👋 Close Session & Exit"]):::loopClass
     
-    Rulebooks -. Injected as System Context .-> Node2
+    Get_Input -->|Valid Query| Node_Chat["💬 chat_node"]:::checkClass
     
-    Node2 --> Gemini[🤖 Google Gemini 2.5 Pro]:::llmNode
-    Gemini -- "Enforce Temp=0 & Thinking Payload" --> LLMResponse{Parse Output}:::decision
+    Node_Chat --> Prep_Prompt["📜 Load skills/chatbot/chat_prompt.md"]:::checkClass
+    Prep_Prompt --> Load_History["📂 Append Previous Conversation Array <br> List[ChatMessage]"]:::nodeClass
     
-    LLMResponse -- "Failed to parse JSON" --> Fallback[💾 Save raw_output.txt & Raise Error]:::nodeClass
-    LLMResponse -- "Success" --> SaveOutputs[💾 Save specs_output/{mcat_id}_final_specs.json]:::nodeClass
-    Gemini -- "Thinking Extract" --> SaveThinking[💾 Save raw_thinking/{mcat_id}_thinking.json]:::nodeClass
-
-    SaveOutputs --> Done([✅ Complete & Exit]):::startEnd
+    Load_History --> LLM_Call["🤖 Call LLM Gateway <br> (gemini-2.5-pro, temp=0, thinking=OFF)"]:::geminiClass
+    
+    LLM_Call --> Extract_Reply["📝 Generate Assistant Reply <br> (Ground Truth Match Gate)"]:::geminiClass
+    
+    Extract_Reply --> Update_History["💾 Update Conversation Array <br> Append User Query & Assistant Reply"]:::nodeClass
+    
+    Update_History --> Print_Reply["🖥️ Display Answer on screen"]:::loopClass
+    Print_Reply --> Loop_Start
 ```
 
 ---
@@ -350,7 +438,7 @@ To demonstrate the real business value of the system, we contrast an un-audited 
 
 ---
 
-###  Audited Engine Spec (Zero Hallucination, Production-Ready)
+### ✅ Audited Engine Spec (Zero Hallucination, Production-Ready)
 ```json
 {
   "category_name": "Electronic Weighbridge",
