@@ -32,7 +32,7 @@ Rather than making a raw direct generation, the agent follows a multi-step struc
 
 ### 2. Disconnected Lazy-Loading Architecture
 The system avoids indexing overhead, complex database runtimes, and embedding latency by using a **lazy-loading directory-based router**.
-* **Why**: By dynamically mapping incoming categories (e.g., `"AAC Block"`) to directory slugs (e.g., `output_aac_blocks/`), it loads the ground-truth text index and articles directly from the disk on-demand. This maintains a near-zero memory footprint and scales instantly as new files are added.
+* **Why**: By dynamically mapping incoming categories (e.g., `"AAC Block"`), it loads the ground-truth text index and articles directly from the disk on-demand. This maintains a near-zero memory footprint and scales instantly as new files are added.
 
 ### 3. Absolute Mathematical Determinism
 To achieve 90%+ consistency across parallel executions, the engine:
@@ -54,29 +54,35 @@ graph TD
     classDef loadClass fill:#fafafa,stroke:#616161,stroke-width:2px;
     classDef edgeClass fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
 
-    User(["👤 CLI/Script User Entry Point"]) :::triggerClass
+    User(["👤 CLI/Script User Entry Point"])
     
     %% Triggers
-    User -->|python main.py| CLI_Seller["💼 Usecase 1: Seller Specs"]:::routerClass
-    User -->|python buyer_persona_main.py| CLI_Buyer["👤 Usecase 2: Buyer Personas"]:::routerClass
-    User -->|python chat_main.py| CLI_Chat["💬 Usecase 3: Wiki Chatbot"]:::routerClass
+    User -->|python main.py| CLI_Seller["💼 Usecase 1: Seller Specs"]
+    User -->|python buyer_persona_main.py| CLI_Buyer["👤 Usecase 2: Buyer Personas"]
+    User -->|python chat_main.py| CLI_Chat["💬 Usecase 3: Wiki Chatbot"]
 
     %% Category Normalization
-    CLI_Seller -->|Extract mcat_name| Slugify["🔄 Sanitize Slug & Normalization <br> (aac_blocks / pvc_pipes)"]:::routerClass
+    CLI_Seller -->|Extract mcat_name| Slugify["🔄 Sanitize Slug & Normalization <br> (aac_blocks / pvc_pipes)"]
     CLI_Buyer -->|Extract mcat_name| Slugify
     CLI_Chat -->|Extract mcat_name| Slugify
 
     %% Lazy-Loading Ground Truth
-    Slugify -->|Lazy-load Category Output Folder| FileLoader["📂 Directory Loader <br> WIKI_DIR / output_slug"]:::loadClass
+    Slugify -->|Lazy-load Category Output Folder| FileLoader["📂 Directory Loader <br> WIKI_DIR / output_slug"]
     
-    FileLoader -->|Read index.md| LoadIndex["📑 Loaded Wiki Index"]:::loadClass
-    FileLoader -->|Read slug.md| LoadArticle["📖 Loaded Wiki Article"]:::loadClass
-    FileLoader -->|Read references.md| LoadRefs["📜 Loaded Wiki References"]:::loadClass
+    FileLoader -->|Read index.md| LoadIndex["📑 Loaded Wiki Index"]
+    FileLoader -->|Read slug.md| LoadArticle["📖 Loaded Wiki Article"]
+    FileLoader -->|Read references.md| LoadRefs["📜 Loaded Wiki References"]
 
     %% Staged to LangGraph States
-    LoadIndex --> StateInit["⚙️ State Initialization <br> (FlowState / BuyerPersonaFlowState / ChatState)"]:::edgeClass
+    LoadIndex --> StateInit["⚙️ State Initialization <br> (FlowState / BuyerPersonaFlowState / ChatState)"]
     LoadArticle --> StateInit
     LoadRefs --> StateInit
+
+    %% Stylings
+    class User triggerClass;
+    class CLI_Seller,CLI_Buyer,CLI_Chat,Slugify routerClass;
+    class FileLoader,LoadIndex,LoadArticle,LoadRefs loadClass;
+    class StateInit edgeClass;
 ```
 
 ---
@@ -93,45 +99,52 @@ graph TD
     classDef doneClass fill:#e0f2f1,stroke:#00695c,stroke-width:2px;
 
     %% Entry
-    Start["🏁 Initialize FlowState <br> (mcat_id, mcat_name)"] :::initClass
+    Start["🏁 Initialize FlowState <br> (mcat_id, mcat_name)"]
     
     %% Node 1
-    Start --> Node_Validate["🔎 validate_wiki_node"]:::checkClass
-    Node_Validate --> Check_File{Does wiki_path.exists?}:::checkClass
+    Start --> Node_Validate["🔎 validate_wiki_node"]
+    Node_Validate --> Check_File{Does wiki_path.exists?}
     
-    Check_File -->|NO| Exit_Abort["❌ Abort Flow <br> (status='abort')"]:::auditClass
-    Check_File -->|YES| Load_State["💾 Populate FlowState <br> (wiki_content, wiki_index, wiki_references)"]:::checkClass
+    Check_File -->|NO| Exit_Abort["❌ Abort Flow <br> (status='abort')"]
+    Check_File -->|YES| Load_State["💾 Populate FlowState <br> (wiki_content, wiki_index, wiki_references)"]
 
     %% Node 2
-    Load_State --> Node_Create["🧠 create_specs_node"]:::checkClass
-    Node_Create --> Prep_Prompts["📜 Load skills/seller_specs/ <br> (agent_prompt.md + spec_creation.md)"]:::checkClass
+    Load_State --> Node_Create["🧠 create_specs_node"]
+    Node_Create --> Prep_Prompts["📜 Load skills/seller_specs/ <br> (agent_prompt.md + spec_creation.md)"]
     
     %% Gemini Execution Block
-    Prep_Prompts --> LLM_Call["🤖 Call LLM Gateway <br> (google/gemini-2.5-pro, temp=0, thinking=ON)"]:::geminiClass
+    Prep_Prompts --> LLM_Call["🤖 Call LLM Gateway <br> (google/gemini-2.5-pro, temp=0, thinking=ON)"]
     
     subgraph Self_Audit_Reasoning [Internal LLM Chain-of-Thought Audit Steps]
-        Audit_1["📐 Dim Rule Check: <br> Units attached to values, NOT spec names"]:::auditClass
-        Audit_2["📊 Tier Counter Check: <br> Primary (2-3) | Secondary (2-3) | Tertiary (max 4)"]:::auditClass
-        Audit_3["❌ Banned Words Check: <br> No 'Other', 'Custom', 'N/A', 'Generic'"]:::auditClass
-        Audit_4["🔤 Symbol Check: <br> Use en-dash (–), m², m³, °C"]:::auditClass
-        Audit_5["🏷️ Brand Rule Check: <br> Concentration Decision Tree"]:::auditClass
+        Audit_1["📐 Dim Rule Check: <br> Units attached to values, NOT spec names"]
+        Audit_2["📊 Tier Counter Check: <br> Primary (2-3) | Secondary (2-3) | Tertiary (max 4)"]
+        Audit_3["❌ Banned Words Check: <br> No 'Other', 'Custom', 'N/A', 'Generic'"]
+        Audit_4["🔤 Symbol Check: <br> Use en-dash (–), m², m³, °C"]
+        Audit_5["🏷️ Brand Rule Check: <br> Concentration Decision Tree"]
         
         Audit_1 --> Audit_2 --> Audit_3 --> Audit_4 --> Audit_5
     end
     
     LLM_Call --> Self_Audit_Reasoning
-    Self_Audit_Reasoning --> LLM_Response["📝 Raw Output Response Generation"]:::geminiClass
+    Self_Audit_Reasoning --> LLM_Response["📝 Raw Output Response Generation"]
 
     %% Post Parsing
-    LLM_Response --> Parser{"Parse JSON Block?"}:::checkClass
+    LLM_Response --> Parser{"Parse JSON Block?"}
     
-    Parser -->|Success| Save_Final["💾 Save specs_output/{mcat_id}_final_specs.json"]:::doneClass
-    Parser -->|Fail| Save_Err["💾 Save raw_output.txt & Raise RuntimeError"]:::auditClass
+    Parser -->|Success| Save_Final["💾 Save specs_output/{mcat_id}_final_specs.json"]
+    Parser -->|Fail| Save_Err["💾 Save raw_output.txt & Raise RuntimeError"]
     
-    LLM_Response --> Save_Thinking["💾 Save raw_thinking/{mcat_id}_thinking.json"]:::doneClass
+    LLM_Response --> Save_Thinking["💾 Save raw_thinking/{mcat_id}_thinking.json"]
 
-    Save_Final --> End_Success["🏁 Exit Flow <br> (status='complete')"]:::doneClass
-    Save_Err --> End_Fail["🏁 Exit Error"]:::auditClass
+    Save_Final --> End_Success["🏁 Exit Flow <br> (status='complete')"]
+    Save_Err --> End_Fail["🏁 Exit Error"]
+
+    %% Stylings
+    class Start initClass;
+    class Node_Validate,Check_File,Load_State,Node_Create,Prep_Prompts,Parser checkClass;
+    class LLM_Call,LLM_Response geminiClass;
+    class Audit_1,Audit_2,Audit_3,Audit_4,Audit_5,Exit_Abort,Save_Err,End_Fail auditClass;
+    class Save_Final,Save_Thinking,End_Success doneClass;
 ```
 
 ---
@@ -148,42 +161,49 @@ graph TD
     classDef doneClass fill:#e0f2f1,stroke:#00695c,stroke-width:2px;
 
     %% Entry
-    Start["🏁 Initialize BuyerPersonaFlowState <br> (mcat_id, mcat_name)"] :::initClass
+    Start["🏁 Initialize BuyerPersonaFlowState <br> (mcat_id, mcat_name)"]
     
     %% Node 1
-    Start --> Node_Validate["🔎 validate_wiki_node"]:::checkClass
-    Node_Validate --> Check_File{Does wiki_path.exists?}:::checkClass
+    Start --> Node_Validate["🔎 validate_wiki_node"]
+    Node_Validate --> Check_File{Does wiki_path.exists?}
     
-    Check_File -->|NO| Exit_Abort["❌ Abort Flow <br> (status='abort')"]:::auditClass
-    Check_File -->|YES| Load_State["💾 Load Files to State"]:::checkClass
+    Check_File -->|NO| Exit_Abort["❌ Abort Flow <br> (status='abort')"]
+    Check_File -->|YES| Load_State["💾 Load Files to State"]
 
     %% Node 2
-    Load_State --> Node_Create["🧠 create_specs_node"]:::checkClass
-    Node_Create --> Prep_Prompts["📜 Load skills/buyer_persona_specs/ <br> (agent_prompt.md + buyer_persona_spec_creation_skill.md)"]:::checkClass
+    Load_State --> Node_Create["🧠 create_specs_node"]
+    Node_Create --> Prep_Prompts["📜 Load skills/buyer_persona_specs/ <br> (agent_prompt.md + buyer_persona_spec_creation_skill.md)"]
     
-    Prep_Prompts --> LLM_Call["🤖 Call LLM Gateway <br> (gemini-2.5-pro, temp=0, thinking=ON)"]:::geminiClass
+    Prep_Prompts --> LLM_Call["🤖 Call LLM Gateway <br> (gemini-2.5-pro, temp=0, thinking=ON)"]
 
     subgraph Buyer_Constraints [Strict Operational Constraints Checked]
-        Limit_Dim["📐 At most 2 Dimensions"]:::auditClass
-        Limit_Val["📊 At most 6 Values per Dimension"]:::auditClass
-        Limit_Char["🔤 Under 25 Characters per Value"]:::auditClass
-        Ban_Product["🚫 Product Specs Banned <br> (No thickness, material, dimensions)"]:::auditClass
-        Grounded["📖 Grounded strictly in Wiki language"]:::auditClass
+        Limit_Dim["📐 At most 2 Dimensions"]
+        Limit_Val["📊 At most 6 Values per Dimension"]
+        Limit_Char["🔤 Under 25 Characters per Value"]
+        Ban_Product["🚫 Product Specs Banned <br> (No thickness, material, dimensions)"]
+        Grounded["📖 Grounded strictly in Wiki language"]
         
         Limit_Dim --> Limit_Val --> Limit_Char --> Ban_Product --> Grounded
     end
 
     LLM_Call --> Buyer_Constraints
-    Buyer_Constraints --> LLM_Response["📝 Generated List Output"]:::geminiClass
+    Buyer_Constraints --> LLM_Response["📝 Generated List Output"]
 
     %% Extraction Node
-    LLM_Response --> Parser_Gate{"Extract Python List?"}:::checkClass
+    LLM_Response --> Parser_Gate{"Extract Python List?"}
     
-    Parser_Gate -->|JSON Match| Save_Specs["💾 Save buyer_persona_spec_output/{mcat_id}_final_buyer_persona_specs.json"]:::doneClass
+    Parser_Gate -->|JSON Match| Save_Specs["💾 Save buyer_persona_spec_output/{mcat_id}_final_buyer_persona_specs.json"]
     Parser_Gate -->|AST Literal Match| Save_Specs
-    Parser_Gate -->|Fail| Save_Err["💾 Save buyer_persona_raw_output.txt & Fail"]:::auditClass
+    Parser_Gate -->|Fail| Save_Err["💾 Save buyer_persona_raw_output.txt & Fail"]
 
-    Save_Specs --> End_Success["🏁 Exit Flow <br> (status='complete')"]:::doneClass
+    Save_Specs --> End_Success["🏁 Exit Flow <br> (status='complete')"]
+
+    %% Stylings
+    class Start initClass;
+    class Node_Validate,Check_File,Load_State,Node_Create,Prep_Prompts,Parser_Gate checkClass;
+    class LLM_Call,LLM_Response geminiClass;
+    class Limit_Dim,Limit_Val,Limit_Char,Ban_Product,Grounded,Exit_Abort,Save_Err auditClass;
+    class Save_Specs,End_Success doneClass;
 ```
 
 ---
@@ -200,33 +220,40 @@ graph TD
     classDef geminiClass fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
 
     %% Session Start
-    Init_Session["🏁 Session Trigger: chat_main.py <br> (mcat_name)"] :::initClass
-    Init_Session --> Node_Validate["🔎 validate_wiki_node"]:::checkClass
+    Init_Session["🏁 Session Trigger: chat_main.py <br> (mcat_name)"]
+    Init_Session --> Node_Validate["🔎 validate_wiki_node"]
     
-    Node_Validate --> Check_File{Does wiki exist?}:::checkClass
-    Check_File -->|NO| Exit_Abort["❌ Terminate Session"]:::checkClass
-    Check_File -->|YES| Load_State["💾 Cache Wiki Files to Session <br> (wiki_content, wiki_index, wiki_references)"]:::checkClass
+    Node_Validate --> Check_File{Does wiki exist?}
+    Check_File -->|NO| Exit_Abort["❌ Terminate Session"]
+    Check_File -->|YES| Load_State["💾 Cache Wiki Files to Session <br> (wiki_content, wiki_index, wiki_references)"]
 
     %% Conversation Loop
-    Load_State --> Loop_Start(["🔄 Begin Interactive Chat Loop"]) :::loopClass
+    Load_State --> Loop_Start(["🔄 Begin Interactive Chat Loop"])
     
-    Loop_Start --> Get_Input["👤 User Input Query <br> (Type message, 'exit' to quit)"]:::loopClass
+    Loop_Start --> Get_Input["👤 User Input Query <br> (Type message, 'exit' to quit)"]
     
-    Get_Input -->|'exit' / 'quit'| End_Session(["👋 Close Session & Exit"]):::loopClass
+    Get_Input -->|'exit' / 'quit'| End_Session(["👋 Close Session & Exit"])
     
-    Get_Input -->|Valid Query| Node_Chat["💬 chat_node"]:::checkClass
+    Get_Input -->|Valid Query| Node_Chat["💬 chat_node"]
     
-    Node_Chat --> Prep_Prompt["📜 Load skills/chatbot/chat_prompt.md"]:::checkClass
-    Prep_Prompt --> Load_History["📂 Append Previous Conversation Array <br> List[ChatMessage]"]:::nodeClass
+    Node_Chat --> Prep_Prompt["📜 Load skills/chatbot/chat_prompt.md"]
+    Prep_Prompt --> Load_History["📂 Append Previous Conversation Array <br> List[ChatMessage]"]
     
-    Load_History --> LLM_Call["🤖 Call LLM Gateway <br> (gemini-2.5-pro, temp=0, thinking=OFF)"]:::geminiClass
+    Load_History --> LLM_Call["🤖 Call LLM Gateway <br> (gemini-2.5-pro, temp=0, thinking=OFF)"]
     
-    LLM_Call --> Extract_Reply["📝 Generate Assistant Reply <br> (Ground Truth Match Gate)"]:::geminiClass
+    LLM_Call --> Extract_Reply["📝 Generate Assistant Reply <br> (Ground Truth Match Gate)"]
     
-    Extract_Reply --> Update_History["💾 Update Conversation Array <br> Append User Query & Assistant Reply"]:::nodeClass
+    Extract_Reply --> Update_History["💾 Update Conversation Array <br> Append User Query & Assistant Reply"]
     
-    Update_History --> Print_Reply["🖥️ Display Answer on screen"]:::loopClass
+    Update_History --> Print_Reply["🖥️ Display Answer on screen"]
     Print_Reply --> Loop_Start
+
+    %% Stylings
+    class Init_Session initClass;
+    class Load_History,Update_History nodeClass;
+    class Loop_Start,Get_Input,End_Session,Print_Reply loopClass;
+    class Node_Validate,Check_File,Load_State,Prep_Prompt checkClass;
+    class LLM_Call,Extract_Reply geminiClass;
 ```
 
 ---
