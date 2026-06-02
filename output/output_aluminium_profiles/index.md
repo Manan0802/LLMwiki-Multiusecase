@@ -1,0 +1,1853 @@
+# 📑 Category Index — Aluminium Profiles
+
+> Generated on 2026-05-08 06:03:16 UTC
+
+This is the central dashboard for this category, linking to the full wiki article, execution logs, and source references.
+
+---
+
+## 📝 Category Overview
+
+> <RESOLVED doubt_id=DOUBT-301>The term "Pure Silee" from [call…
+
+## 🔗 Traceability & Files
+
+- **📚 Wiki Page:** [aluminium_profiles.md](aluminium_profiles.md)
+- **📋 Execution Logs:** [logs.md](logs.md)
+- **📖 Source References:** [references.md](references.md)
+- **🤔 Agent Doubts:** [doubts.md](doubts.md)
+
+---
+
+## 🗺️ Wiki Structure
+
+- - **Quick Facts**
+-   - 🔹 Category
+-   - 🔹 Common Names
+-   - 🔹 Primary Use
+-   - 🔹 Key Specifications
+-   - 🔹 Price Range
+-   - 🔹 Popular Brands
+-   - 🔹 Key Standard
+-   - 🔹 MOQ
+- - **1. Category Overview**
+-   - 🔹 Architectural Profiles (Alloy 6063-T5 / HE9)
+-   - 🔹 Structural Profiles (Alloy 6061-T6 / HE20/HE30)
+- - **2. Seller-Side Specifications**
+-   - 🔹 Product ID / Model No.
+-   - 🔹 Dimensions
+-   - 🔹 Profile Type
+-   - 🔹 Alloy Grade
+-   - 🔹 Temper
+-   - 🔹 Brand
+-   - 🔹 Length
+-   - 🔹 Finish / Color
+-   - 🔹 Thickness
+-   - 🔹 Gauge
+-   - 🔹 Weight per Length
+-   - 🔹 Application
+-   - 🔹 Compatible Board Thickness
+-   - 🔹 Compatible Glass Thickness
+-   - 🔹 Material Quality
+- - **3. Buyer Specifications**
+-   - **Must-Have Specs**
+-     - 🔹 Dimensions / Cross-section
+-     - 🔹 Application/Shape
+-     - 🔹 Finish/Color
+-     - 🔹 Board/Glass Thickness
+-   - **Nice-to-Have Specs**
+-     - 🔹 Length
+-     - 🔹 Duty/Type
+-     - 🔹 Services
+-   - **Buyer Terminology**
+-     - 🔹 "Section" / "Aluminium Section"
+-     - 🔹 "Patti"
+-     - 🔹 Dimensions
+-     - 🔹 "Racks Roth"
+-   - **Quantity Expression**
+-     - 🔹 By Piece
+-     - 🔹 By Weight
+-     - 🔹 By Total Length
+-     - 🔹 Informal Bulk
+-     - 🔹 By Set
+-   - **Quality Signals**
+-     - 🔹 By Brand
+-     - 🔹 By Standard
+-     - 🔹 By Descriptive Grade
+- - **4. Most Relevant Spec Combinations**
+-   - **Primary Variant Axes**
+-     - 🔹 Alloy Grade + Temper
+-     - 🔹 Profile Type + Dimensions
+-     - 🔹 Finish
+-     - 🔹 Brand / Origin
+-   - **Common Named Product Profiles**
+-     - 🔹 Industrial T-Slot Profile
+-     - 🔹 Furniture/Cabinet Profile System
+-     - 🔹 Architectural Partition Section
+-     - 🔹 Polycarbonate Sheet Profiles
+-   - 🔹 Spec Dependency Rules
+- - **5. Spec Contradictions & Flags**
+-   - 🔹 Inconsistent Weight Specification (`manual-review`)
+-   - 🔹 Nominal vs. Drawing Dimension Mismatch (`manual-review`)
+-   - 🔹 Ambiguous Terminology (`manual-review`)
+-   - 🔸 Data Variance
+-   - 🔹 Ambiguous Proprietary Names (`soft-warning`)
+-   - 🔹 Subjective Quality Claims (`soft-warning`)
+- - **6. Price-Defining Specs & Variation**
+-   - 🔹 Weight (Profile Complexity & Size)
+-   - 🔹 Finish & Color
+-   - 🔹 Alloy Grade & Temper
+-   - 🔹 Brand & Origin
+-   - 🔹 Standard Profiles by Weight (Delhi)
+-   - 🔹 Decorative Profiles by Length/Piece
+-   - 🔹 Accessories
+- - **7. Buyer Personas**
+-   - **The Interior Fabricator / Furniture Maker**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Omitted Specs
+-     - 🔹 Timeline
+-   - **The Wholesaler / Bulk Trader**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Omitted Specs
+-     - 🔹 Timeline
+-   - **The Industrial Manufacturer / OEM**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Omitted Specs
+-     - 🔹 Timeline
+-   - **The Architect-Driven Contractor**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Omitted Specs
+-     - 🔹 Timeline
+- - **8. Seller Personas**
+-   - **The Regional Manufacturer / Brand Owner**
+-     - 🔹 Listing Data
+-     - 🔹 Structure
+-     - 🔹 Trust Signals
+-     - 🔹 Data Extraction Difficulty
+-   - **The Local 'Aluminium House' / Distributor**
+-     - 🔹 Listing Data
+-     - 🔹 Structure
+-     - 🔹 Trust Signals
+-     - 🔹 Data Extraction Difficulty
+-   - **The Specialist Fabricator**
+-     - 🔹 Listing Data
+-     - 🔹 Structure
+-     - 🔹 Trust Signals
+-     - 🔹 Data Extraction Difficulty
+- - **9. Listing Spec Tiers**
+-   - 🔹 Profile Type
+-   - 🔹 Dimensions
+-   - 🔹 Application
+-   - 🔹 Alloy Grade
+-   - 🔹 Brand
+-   - 🔹 Finish / Color
+-   - 🔹 Temper
+-   - 🔹 Thickness / Gauge
+-   - 🔹 Compatible Board/Glass Thickness
+-   - 🔹 Length
+-   - 🔹 Product ID / Model No.
+-   - 🔹 Weight per Length
+-   - 🔹 Material Quality
+-   - 🔹 Service
+-   - 🔹 Companion Products
+- - **Glossary**
+-   - 🔹 Aluminium Section
+-   - 🔹 Companion Products
+-   - 🔹 Extrusion
+-   - 🔹 Gauge (G)
+-   - 🔹 HE9 / HE20 / HE30
+-   - 🔹 Mill Finish
+-   - 🔹 Patti
+-   - 🔹 Racks Roth
+-   - 🔹 SS Brush / SS Finish
+-   - 🔹 Temper
+-   - 🔹 Virgin Material
+- - **Wiki Metadata**
+-   - 🔹 Category Path
+-   - 🔹 Tags
+-   - 🔹 Sources Ingested
+-   - 🔹 Data Types
+-   - 🔹 Brands Covered
+-   - 🔹 Standards Referenced
+-   - 🔹 Market
+-   - 🔹 Last Updated
+
+## 📋 Log Sections
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total sources scanned
+- - 🔸 New/changed sources processed
+- - 🔸 Sources removed since last run
+- - **📊 Run Summary**
+- - **📂 Sources Inventory**
+- - **🔄 Step-by-Step Execution Log**
+-   - **Step 1: 📥 PICK SOURCES**
+-   - **Step 2: 🏷️ CATEGORY**
+-   - **Step 3: 🔍 CHECK WIKI**
+-   - **Step 4: 📝 CREATE**
+-     - 🔹 Sources 1-3/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 4-6/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 7-9/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 10-12/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 13-15/15
+-     - 🔹 Extraction Summary
+-   - **Step 5: 📊 EVALUATE**
+-   - **Step 6: 📥 PICK SOURCES**
+-   - **Step 7: 🏷️ CATEGORY**
+-   - **Step 8: 🔍 CHECK WIKI**
+-   - **Step 9: 🔄 UPDATE**
+-     - 🔹 Sources 1-3/5
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 4-5/5
+-     - 🔹 Extraction Summary
+-   - **Step 10: 📊 EVALUATE**
+-     - 🔹 Weak Per-Kilogram Pricing Data
+-     - 🔹 Incorrect Spec Tiering
+-   - **Step 11: 📥 PICK SOURCES**
+-   - **Step 12: 🏷️ CATEGORY**
+-   - **Step 13: 🔍 CHECK WIKI**
+-   - **Step 14: 🔄 UPDATE**
+-     - 🔹 Sources 1-3/5
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 4-5/5
+-     - 🔹 Extraction Summary
+-   - **Step 15: 📊 EVALUATE**
+-   - **Step 16: ✨ ENRICH**
+
+## 📖 Reference Sections
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total New References
+- - **📄 JSON Data Sources**
+-   - **1. `call 1.json`**
+-   - **2. `call 10.json`**
+-   - **3. `call 11.json`**
+-   - **4. `call 12.json`**
+-   - **5. `call 13.json`**
+-   - **6. `call 14.json`**
+-   - **7. `call 15.json`**
+-   - **8. `call 16.json`**
+-   - **9. `call 17.json`**
+-   - **10. `call 18.json`**
+-   - **11. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **12. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **13. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **14. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **15. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **16. `call 1.json`**
+-   - **17. `call 10.json`**
+-   - **18. `call 11.json`**
+-   - **19. `call 12.json`**
+-   - **20. `call 13.json`**
+-   - **21. `call 14.json`**
+-   - **22. `call 15.json`**
+-   - **23. `call 16.json`**
+-   - **24. `call 17.json`**
+-   - **25. `call 18.json`**
+-   - **26. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **27. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **28. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **29. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **30. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **31. `call 19.json`**
+-   - **32. `call 1.json`**
+-   - **33. `call 10.json`**
+-   - **34. `call 11.json`**
+-   - **35. `call 12.json`**
+-   - **36. `call 13.json`**
+-   - **37. `call 14.json`**
+-   - **38. `call 15.json`**
+-   - **39. `call 16.json`**
+-   - **40. `call 17.json`**
+-   - **41. `call 18.json`**
+-   - **42. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **43. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **44. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **45. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **46. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **47. `call 2.json`**
+-   - **48. `call 1.json`**
+-   - **49. `call 10.json`**
+-   - **50. `call 11.json`**
+-   - **51. `call 12.json`**
+-   - **52. `call 13.json`**
+-   - **53. `call 14.json`**
+-   - **54. `call 15.json`**
+-   - **55. `call 16.json`**
+-   - **56. `call 17.json`**
+-   - **57. `call 18.json`**
+-   - **58. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **59. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **60. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **61. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **62. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **63. `call 20.json`**
+-   - **64. `call 1.json`**
+-   - **65. `call 10.json`**
+-   - **66. `call 11.json`**
+-   - **67. `call 12.json`**
+-   - **68. `call 13.json`**
+-   - **69. `call 14.json`**
+-   - **70. `call 15.json`**
+-   - **71. `call 16.json`**
+-   - **72. `call 17.json`**
+-   - **73. `call 18.json`**
+-   - **74. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **75. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **76. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **77. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **78. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **79. `call 21.json`**
+-   - **80. `call 1.json`**
+-   - **81. `call 10.json`**
+-   - **82. `call 11.json`**
+-   - **83. `call 12.json`**
+-   - **84. `call 13.json`**
+-   - **85. `call 14.json`**
+-   - **86. `call 15.json`**
+-   - **87. `call 16.json`**
+-   - **88. `call 17.json`**
+-   - **89. `call 18.json`**
+-   - **90. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **91. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **92. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **93. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **94. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **95. `call 22.json`**
+-   - **96. `call 1.json`**
+-   - **97. `call 10.json`**
+-   - **98. `call 11.json`**
+-   - **99. `call 12.json`**
+-   - **100. `call 13.json`**
+-   - **101. `call 14.json`**
+-   - **102. `call 15.json`**
+-   - **103. `call 16.json`**
+-   - **104. `call 17.json`**
+-   - **105. `call 18.json`**
+-   - **106. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **107. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **108. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **109. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **110. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **111. `call 1.json`**
+-   - **112. `call 10.json`**
+-   - **113. `call 11.json`**
+-   - **114. `call 12.json`**
+-   - **115. `call 13.json`**
+-   - **116. `call 14.json`**
+-   - **117. `call 15.json`**
+-   - **118. `call 16.json`**
+-   - **119. `call 17.json`**
+-   - **120. `call 18.json`**
+-   - **121. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **122. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **123. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **124. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **125. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **126. `call 19.json`**
+-   - **127. `call 1.json`**
+-   - **128. `call 10.json`**
+-   - **129. `call 11.json`**
+-   - **130. `call 12.json`**
+-   - **131. `call 13.json`**
+-   - **132. `call 14.json`**
+-   - **133. `call 15.json`**
+-   - **134. `call 16.json`**
+-   - **135. `call 17.json`**
+-   - **136. `call 18.json`**
+-   - **137. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **138. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **139. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **140. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **141. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **142. `call 2.json`**
+-   - **143. `call 1.json`**
+-   - **144. `call 10.json`**
+-   - **145. `call 11.json`**
+-   - **146. `call 12.json`**
+-   - **147. `call 13.json`**
+-   - **148. `call 14.json`**
+-   - **149. `call 15.json`**
+-   - **150. `call 16.json`**
+-   - **151. `call 17.json`**
+-   - **152. `call 18.json`**
+-   - **153. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **154. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **155. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **156. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **157. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **158. `call 20.json`**
+-   - **159. `call 1.json`**
+-   - **160. `call 10.json`**
+-   - **161. `call 11.json`**
+-   - **162. `call 12.json`**
+-   - **163. `call 13.json`**
+-   - **164. `call 14.json`**
+-   - **165. `call 15.json`**
+-   - **166. `call 16.json`**
+-   - **167. `call 17.json`**
+-   - **168. `call 18.json`**
+-   - **169. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **170. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **171. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **172. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **173. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **174. `call 21.json`**
+-   - **175. `call 1.json`**
+-   - **176. `call 10.json`**
+-   - **177. `call 11.json`**
+-   - **178. `call 12.json`**
+-   - **179. `call 13.json`**
+-   - **180. `call 14.json`**
+-   - **181. `call 15.json`**
+-   - **182. `call 16.json`**
+-   - **183. `call 17.json`**
+-   - **184. `call 18.json`**
+-   - **185. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **186. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **187. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **188. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **189. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **190. `call 22.json`**
+-   - **191. `call 23.json`**
+-   - **192. `call 1.json`**
+-   - **193. `call 10.json`**
+-   - **194. `call 11.json`**
+-   - **195. `call 12.json`**
+-   - **196. `call 13.json`**
+-   - **197. `call 14.json`**
+-   - **198. `call 15.json`**
+-   - **199. `call 16.json`**
+-   - **200. `call 17.json`**
+-   - **201. `call 18.json`**
+-   - **202. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **203. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **204. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **205. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **206. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **207. `call 1.json`**
+-   - **208. `call 10.json`**
+-   - **209. `call 11.json`**
+-   - **210. `call 12.json`**
+-   - **211. `call 13.json`**
+-   - **212. `call 14.json`**
+-   - **213. `call 15.json`**
+-   - **214. `call 16.json`**
+-   - **215. `call 17.json`**
+-   - **216. `call 18.json`**
+-   - **217. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **218. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **219. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **220. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **221. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **222. `call 19.json`**
+-   - **223. `call 1.json`**
+-   - **224. `call 10.json`**
+-   - **225. `call 11.json`**
+-   - **226. `call 12.json`**
+-   - **227. `call 13.json`**
+-   - **228. `call 14.json`**
+-   - **229. `call 15.json`**
+-   - **230. `call 16.json`**
+-   - **231. `call 17.json`**
+-   - **232. `call 18.json`**
+-   - **233. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **234. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **235. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **236. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **237. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **238. `call 2.json`**
+-   - **239. `call 1.json`**
+-   - **240. `call 10.json`**
+-   - **241. `call 11.json`**
+-   - **242. `call 12.json`**
+-   - **243. `call 13.json`**
+-   - **244. `call 14.json`**
+-   - **245. `call 15.json`**
+-   - **246. `call 16.json`**
+-   - **247. `call 17.json`**
+-   - **248. `call 18.json`**
+-   - **249. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **250. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **251. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **252. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **253. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **254. `call 20.json`**
+-   - **255. `call 1.json`**
+-   - **256. `call 10.json`**
+-   - **257. `call 11.json`**
+-   - **258. `call 12.json`**
+-   - **259. `call 13.json`**
+-   - **260. `call 14.json`**
+-   - **261. `call 15.json`**
+-   - **262. `call 16.json`**
+-   - **263. `call 17.json`**
+-   - **264. `call 18.json`**
+-   - **265. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **266. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **267. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **268. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **269. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **270. `call 21.json`**
+-   - **271. `call 1.json`**
+-   - **272. `call 10.json`**
+-   - **273. `call 11.json`**
+-   - **274. `call 12.json`**
+-   - **275. `call 13.json`**
+-   - **276. `call 14.json`**
+-   - **277. `call 15.json`**
+-   - **278. `call 16.json`**
+-   - **279. `call 17.json`**
+-   - **280. `call 18.json`**
+-   - **281. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **282. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **283. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **284. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **285. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **286. `call 22.json`**
+-   - **287. `call 24.json`**
+-   - **288. `call 1.json`**
+-   - **289. `call 10.json`**
+-   - **290. `call 11.json`**
+-   - **291. `call 12.json`**
+-   - **292. `call 13.json`**
+-   - **293. `call 14.json`**
+-   - **294. `call 15.json`**
+-   - **295. `call 16.json`**
+-   - **296. `call 17.json`**
+-   - **297. `call 18.json`**
+-   - **298. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **299. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **300. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **301. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **302. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **303. `call 1.json`**
+-   - **304. `call 10.json`**
+-   - **305. `call 11.json`**
+-   - **306. `call 12.json`**
+-   - **307. `call 13.json`**
+-   - **308. `call 14.json`**
+-   - **309. `call 15.json`**
+-   - **310. `call 16.json`**
+-   - **311. `call 17.json`**
+-   - **312. `call 18.json`**
+-   - **313. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **314. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **315. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **316. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **317. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **318. `call 19.json`**
+-   - **319. `call 1.json`**
+-   - **320. `call 10.json`**
+-   - **321. `call 11.json`**
+-   - **322. `call 12.json`**
+-   - **323. `call 13.json`**
+-   - **324. `call 14.json`**
+-   - **325. `call 15.json`**
+-   - **326. `call 16.json`**
+-   - **327. `call 17.json`**
+-   - **328. `call 18.json`**
+-   - **329. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **330. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **331. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **332. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **333. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **334. `call 2.json`**
+-   - **335. `call 1.json`**
+-   - **336. `call 10.json`**
+-   - **337. `call 11.json`**
+-   - **338. `call 12.json`**
+-   - **339. `call 13.json`**
+-   - **340. `call 14.json`**
+-   - **341. `call 15.json`**
+-   - **342. `call 16.json`**
+-   - **343. `call 17.json`**
+-   - **344. `call 18.json`**
+-   - **345. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **346. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **347. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **348. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **349. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **350. `call 20.json`**
+-   - **351. `call 1.json`**
+-   - **352. `call 10.json`**
+-   - **353. `call 11.json`**
+-   - **354. `call 12.json`**
+-   - **355. `call 13.json`**
+-   - **356. `call 14.json`**
+-   - **357. `call 15.json`**
+-   - **358. `call 16.json`**
+-   - **359. `call 17.json`**
+-   - **360. `call 18.json`**
+-   - **361. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **362. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **363. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **364. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **365. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **366. `call 21.json`**
+-   - **367. `call 1.json`**
+-   - **368. `call 10.json`**
+-   - **369. `call 11.json`**
+-   - **370. `call 12.json`**
+-   - **371. `call 13.json`**
+-   - **372. `call 14.json`**
+-   - **373. `call 15.json`**
+-   - **374. `call 16.json`**
+-   - **375. `call 17.json`**
+-   - **376. `call 18.json`**
+-   - **377. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **378. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **379. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **380. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **381. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **382. `call 22.json`**
+-   - **383. `call 25.json`**
+-   - **384. `call 1.json`**
+-   - **385. `call 10.json`**
+-   - **386. `call 11.json`**
+-   - **387. `call 12.json`**
+-   - **388. `call 13.json`**
+-   - **389. `call 14.json`**
+-   - **390. `call 15.json`**
+-   - **391. `call 16.json`**
+-   - **392. `call 17.json`**
+-   - **393. `call 18.json`**
+-   - **394. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **395. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **396. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **397. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **398. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **399. `call 1.json`**
+-   - **400. `call 10.json`**
+-   - **401. `call 11.json`**
+-   - **402. `call 12.json`**
+-   - **403. `call 13.json`**
+-   - **404. `call 14.json`**
+-   - **405. `call 15.json`**
+-   - **406. `call 16.json`**
+-   - **407. `call 17.json`**
+-   - **408. `call 18.json`**
+-   - **409. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **410. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **411. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **412. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **413. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **414. `call 19.json`**
+-   - **415. `call 1.json`**
+-   - **416. `call 10.json`**
+-   - **417. `call 11.json`**
+-   - **418. `call 12.json`**
+-   - **419. `call 13.json`**
+-   - **420. `call 14.json`**
+-   - **421. `call 15.json`**
+-   - **422. `call 16.json`**
+-   - **423. `call 17.json`**
+-   - **424. `call 18.json`**
+-   - **425. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **426. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **427. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **428. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **429. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **430. `call 2.json`**
+-   - **431. `call 1.json`**
+-   - **432. `call 10.json`**
+-   - **433. `call 11.json`**
+-   - **434. `call 12.json`**
+-   - **435. `call 13.json`**
+-   - **436. `call 14.json`**
+-   - **437. `call 15.json`**
+-   - **438. `call 16.json`**
+-   - **439. `call 17.json`**
+-   - **440. `call 18.json`**
+-   - **441. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **442. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **443. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **444. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **445. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **446. `call 20.json`**
+-   - **447. `call 1.json`**
+-   - **448. `call 10.json`**
+-   - **449. `call 11.json`**
+-   - **450. `call 12.json`**
+-   - **451. `call 13.json`**
+-   - **452. `call 14.json`**
+-   - **453. `call 15.json`**
+-   - **454. `call 16.json`**
+-   - **455. `call 17.json`**
+-   - **456. `call 18.json`**
+-   - **457. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **458. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **459. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **460. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **461. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **462. `call 21.json`**
+-   - **463. `call 1.json`**
+-   - **464. `call 10.json`**
+-   - **465. `call 11.json`**
+-   - **466. `call 12.json`**
+-   - **467. `call 13.json`**
+-   - **468. `call 14.json`**
+-   - **469. `call 15.json`**
+-   - **470. `call 16.json`**
+-   - **471. `call 17.json`**
+-   - **472. `call 18.json`**
+-   - **473. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **474. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **475. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **476. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **477. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **478. `call 22.json`**
+-   - **479. `call 26.json`**
+-   - **480. `call 1.json`**
+-   - **481. `call 10.json`**
+-   - **482. `call 11.json`**
+-   - **483. `call 12.json`**
+-   - **484. `call 13.json`**
+-   - **485. `call 14.json`**
+-   - **486. `call 15.json`**
+-   - **487. `call 16.json`**
+-   - **488. `call 17.json`**
+-   - **489. `call 18.json`**
+-   - **490. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **491. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **492. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **493. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **494. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **495. `call 1.json`**
+-   - **496. `call 10.json`**
+-   - **497. `call 11.json`**
+-   - **498. `call 12.json`**
+-   - **499. `call 13.json`**
+-   - **500. `call 14.json`**
+-   - **501. `call 15.json`**
+-   - **502. `call 16.json`**
+-   - **503. `call 17.json`**
+-   - **504. `call 18.json`**
+-   - **505. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **506. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **507. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **508. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **509. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **510. `call 19.json`**
+-   - **511. `call 1.json`**
+-   - **512. `call 10.json`**
+-   - **513. `call 11.json`**
+-   - **514. `call 12.json`**
+-   - **515. `call 13.json`**
+-   - **516. `call 14.json`**
+-   - **517. `call 15.json`**
+-   - **518. `call 16.json`**
+-   - **519. `call 17.json`**
+-   - **520. `call 18.json`**
+-   - **521. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **522. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **523. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **524. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **525. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **526. `call 2.json`**
+-   - **527. `call 1.json`**
+-   - **528. `call 10.json`**
+-   - **529. `call 11.json`**
+-   - **530. `call 12.json`**
+-   - **531. `call 13.json`**
+-   - **532. `call 14.json`**
+-   - **533. `call 15.json`**
+-   - **534. `call 16.json`**
+-   - **535. `call 17.json`**
+-   - **536. `call 18.json`**
+-   - **537. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **538. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **539. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **540. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **541. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **542. `call 20.json`**
+-   - **543. `call 1.json`**
+-   - **544. `call 10.json`**
+-   - **545. `call 11.json`**
+-   - **546. `call 12.json`**
+-   - **547. `call 13.json`**
+-   - **548. `call 14.json`**
+-   - **549. `call 15.json`**
+-   - **550. `call 16.json`**
+-   - **551. `call 17.json`**
+-   - **552. `call 18.json`**
+-   - **553. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **554. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **555. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **556. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **557. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **558. `call 21.json`**
+-   - **559. `call 1.json`**
+-   - **560. `call 10.json`**
+-   - **561. `call 11.json`**
+-   - **562. `call 12.json`**
+-   - **563. `call 13.json`**
+-   - **564. `call 14.json`**
+-   - **565. `call 15.json`**
+-   - **566. `call 16.json`**
+-   - **567. `call 17.json`**
+-   - **568. `call 18.json`**
+-   - **569. `pdf 1-45mm-aluminum-profile-with-handle-4.json`**
+-   - **570. `pdf 2-50mm-drawer-profile-with-handle-13.json`**
+-   - **571. `pdf 3-aluminium-foot-step-sections-1.json`**
+-   - **572. `pdf 4-aluminium-profiles-fittings-7.json`**
+-   - **573. `pdf 5-aluminum-drawer-and-shutter-profiles-9.json`**
+-   - **574. `call 22.json`**
+-   - **575. `call 27.json`**
+- - **📎 Web_Search Sources**
+-   - **1. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **2. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **3. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **4. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **5. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **6. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **7. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **8. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **9. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **10. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **11. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **12. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **13. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **14. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **15. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **16. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **17. `WEB: aluminium profile price per kg India 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **18. `WEB: Jindal aluminium extrusion price list 2024 India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **19. `WEB: price difference powder coated vs mill finish vs anodized aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **20. `WEB: Indian Standard IS code for aluminium extrusion profiles architectural`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **21. `WEB: India aluminium profile market drivers`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **22. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **23. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **24. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **25. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **26. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **27. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **28. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **29. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **30. `WEB: mandatory ISI standards for aluminium profiles in India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **31. `WEB: aluminium profile price per kg India 2024 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **32. `WEB: price difference powder coated vs mill finish aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **33. `WEB: Indian aluminium extrusion market drivers and trends`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **34. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **35. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **36. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **37. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **38. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **39. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **40. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **41. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **42. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **43. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **44. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **45. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **46. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **47. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **48. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **49. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **50. `WEB: aluminium profile price per kg India 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **51. `WEB: Jindal aluminium extrusion price list 2024 India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **52. `WEB: price difference powder coated vs mill finish vs anodized aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **53. `WEB: Indian Standard IS code for aluminium extrusion profiles architectural`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **54. `WEB: India aluminium profile market drivers`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **55. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **56. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **57. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **58. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **59. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **60. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **61. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **62. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **63. `WEB: mandatory ISI standards for aluminium profiles in India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **64. `WEB: aluminium profile price per kg India 2024 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **65. `WEB: price difference powder coated vs mill finish aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **66. `WEB: Indian aluminium extrusion market drivers and trends`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **67. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **68. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **69. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **70. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **71. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **72. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **73. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **74. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **75. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **76. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **77. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **78. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **79. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **80. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **81. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **82. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **83. `WEB: aluminium profile price per kg India 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **84. `WEB: Jindal aluminium extrusion price list 2024 India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **85. `WEB: price difference powder coated vs mill finish vs anodized aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **86. `WEB: Indian Standard IS code for aluminium extrusion profiles architectural`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **87. `WEB: India aluminium profile market drivers`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **88. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **89. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **90. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **91. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **92. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **93. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **94. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **95. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **96. `WEB: mandatory ISI standards for aluminium profiles in India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **97. `WEB: aluminium profile price per kg India 2024 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **98. `WEB: price difference powder coated vs mill finish aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **99. `WEB: Indian aluminium extrusion market drivers and trends`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **100. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **101. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **102. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **103. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **104. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **105. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **106. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **107. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **108. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **109. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **110. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **111. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **112. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **113. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **114. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **115. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **116. `WEB: aluminium profile price per kg India 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **117. `WEB: Jindal aluminium extrusion price list 2024 India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **118. `WEB: price difference powder coated vs mill finish vs anodized aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **119. `WEB: Indian Standard IS code for aluminium extrusion profiles architectural`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **120. `WEB: India aluminium profile market drivers`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **121. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **122. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **123. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **124. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **125. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **126. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **127. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **128. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **129. `WEB: mandatory ISI standards for aluminium profiles in India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **130. `WEB: aluminium profile price per kg India 2024 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **131. `WEB: price difference powder coated vs mill finish aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **132. `WEB: Indian aluminium extrusion market drivers and trends`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **133. `WEB: common tempers for 6063 and 6061 aluminium profiles India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Seller-Side Specifications
+-     - 🔹 Most Relevant Spec Combinations
+-     - 🔹 Listing Spec Tiers
+-     - 🔹 Glossary
+-     - 🔹 Pricing Intelligence
+-     - 🔹 Web Search Results
+-   - **134. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **135. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **136. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **137. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **138. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **139. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **140. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **141. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **142. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **143. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **144. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **145. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **146. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **147. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **148. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **149. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **150. `WEB: aluminium profile price per kg India 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **151. `WEB: Jindal aluminium extrusion price list 2024 India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **152. `WEB: price difference powder coated vs mill finish vs anodized aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **153. `WEB: Indian Standard IS code for aluminium extrusion profiles architectural`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **154. `WEB: India aluminium profile market drivers`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **155. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **156. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **157. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **158. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **159. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **160. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **161. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **162. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **163. `WEB: mandatory ISI standards for aluminium profiles in India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **164. `WEB: aluminium profile price per kg India 2024 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **165. `WEB: price difference powder coated vs mill finish aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **166. `WEB: Indian aluminium extrusion market drivers and trends`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **167. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **168. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **169. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **170. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **171. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **172. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **173. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **174. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **175. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **176. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **177. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **178. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **179. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **180. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **181. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **182. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **183. `WEB: aluminium profile price per kg India 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **184. `WEB: Jindal aluminium extrusion price list 2024 India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **185. `WEB: price difference powder coated vs mill finish vs anodized aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **186. `WEB: Indian Standard IS code for aluminium extrusion profiles architectural`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **187. `WEB: India aluminium profile market drivers`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Pricing Structure
+-     - 🔹 Regulatory Standards
+-     - 🔹 Market Drivers
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Section 7 (Pricing)
+-     - 🔹 Section 1 (Quick Facts)
+-     - 🔹 Section 2 (Category Overview)
+-     - 🔹 All Other Sections
+-     - 🔹 Web Search Results
+-   - **188. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **189. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **190. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **191. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **192. `WEB: aluminium profile grades 6063 vs 6061 india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **193. `WEB: types of aluminium profile finishes powder coating vs anodizing`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **194. `WEB: aluminium profile price per kg in India 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **195. `WEB: Nikhhal Bhindi aluminium profile handle style India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **196. `WEB: mandatory ISI standards for aluminium profiles in India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **197. `WEB: aluminium profile price per kg India 2024 6063 6061`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **198. `WEB: price difference powder coated vs mill finish aluminium profile India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **199. `WEB: Indian aluminium extrusion market drivers and trends`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+
+## 🤔 Agent Doubt Log
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total Doubts Raised This Run
+- - 🔸 Unresolved
+- - 🔸 Self-Resolved
+- - **🔴 Unresolved Doubts**
+-   - **🟡 DOUBT-301: Seller-Side Specifications → Composition**
+-     - 🔹 Severity
+-     - 🔹 Raised at
+-     - 🔹 Question
+-   - **🟡 DOUBT-004: Evaluator Feedback → Iteration 3**
+-     - 🔹 Severity
+-     - 🔹 Raised at
+-     - 🔹 Question
+- - **✅ Self-Resolved Doubts**
+-   - **DOUBT-002: Evaluator Feedback → Iteration 1 *(Resolved)***
+-     - 🔹 Originally raised at
+-     - 🔹 Question
+-     - 🔹 Resolved at
+-     - 🔹 Resolution
+-   - **DOUBT-003: Evaluator Feedback → Iteration 2 *(Resolved)***
+-     - 🔹 Originally raised at
+-     - 🔹 Question
+-     - 🔹 Resolved at
+-     - 🔹 Resolution
+
+---
+
+*Index generated at 2026-05-08 06:03:16 UTC*

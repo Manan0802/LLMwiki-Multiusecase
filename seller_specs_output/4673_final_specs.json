@@ -1,0 +1,119 @@
+{
+  "category_name": "Aluminum Composite Panels",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Fire-Retardant (FR) Grade",
+          "options": [
+            "Grade A2",
+            "Grade B1",
+            "Grade B2",
+            "Interior Grade"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Panel Thickness",
+          "options": [
+            "4 mm",
+            "3 mm",
+            "6 mm",
+            "2 mm",
+            "1 mm",
+            "8 mm"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Brand",
+          "options": [
+            "Aludecor",
+            "Viva",
+            "Alucobond",
+            "ReynoArch",
+            "Alstone",
+            "Eurobond",
+            "Virgo ACP",
+            "Alstrong",
+            "Citybond",
+            "CROSSBOND"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "Aluminum Coil Thickness",
+          "options": [
+            "0.50 mm",
+            "0.25 mm",
+            "0.30 mm",
+            "0.20 mm",
+            "0.15 mm",
+            "0.12 mm"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Coating",
+          "options": [
+            "PVDF",
+            "PE (Polyester)",
+            "FEVE"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Finish",
+          "options": [
+            "Wooden",
+            "Metallic",
+            "Solid",
+            "Marble",
+            "Stone",
+            "Mirror",
+            "High-Gloss",
+            "Brushed"
+          ],
+          "input_type": "multi_select"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Application",
+          "options": [
+            "Exterior Cladding",
+            "Interior Design",
+            "Corporate Signage",
+            "Public Infrastructure",
+            "Transportation"
+          ],
+          "input_type": "multi_select"
+        },
+        {
+          "spec_name": "Sheet Size",
+          "options": [
+            "1220×2440 mm (4×8 ft)",
+            "1220×3050 mm (4×10 ft)",
+            "1220×3660 mm (4×12 ft)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "ISO Certification",
+          "options": [
+            "ISO 9001",
+            "ISO 14001",
+            "ISO 45001"
+          ],
+          "input_type": "multi_select"
+        }
+      ]
+    }
+  }
+}

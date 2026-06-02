@@ -1,0 +1,117 @@
+{
+  "category_name": "Leather Diaries",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Size",
+          "options": [
+            "A5 (210×148 mm)",
+            "B5 (245×180 mm)",
+            "A4 (297×210 mm)",
+            "A6 (148×105 mm)",
+            "8×6\"",
+            "7×5\"",
+            "B7 (125×88 mm)",
+            "20×15 cm"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Cover Material",
+          "options": [
+            "PU Leather",
+            "Genuine Leather",
+            "Buff Leather",
+            "NDM Leather",
+            "Leatherette",
+            "Rexine",
+            "PU Foam",
+            "PV Leather",
+            "MDF Wooden Cover"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "Electronic Features",
+          "options": [
+            "Power Bank",
+            "Wireless Charging",
+            "USB Pen Drive",
+            "Charging Cables"
+          ],
+          "input_type": "multi_select"
+        },
+        {
+          "spec_name": "Closure Type",
+          "options": [
+            "Magnetic Flap",
+            "Leather Strap",
+            "Snap Button",
+            "Elastic Band",
+            "Metal Lock",
+            "Key Lock",
+            "D Lock"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Brand",
+          "options": [
+            "Vision Diaries",
+            "Navneet",
+            "Paperkraft",
+            "Classmate",
+            "Sundaram",
+            "Madhav International",
+            "M.S. Hilal International",
+            "Hari Om Leather",
+            "Sahaj Crafts",
+            "Century Papers"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Paper Weight",
+          "options": [
+            "70 GSM",
+            "80 GSM",
+            "60 GSM",
+            "90 GSM",
+            "100 GSM",
+            "120 GSM",
+            "54 GSM"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Format",
+          "options": [
+            "Dated Diary",
+            "Undated Notebook",
+            "Executive Organiser",
+            "Planner",
+            "Visitor Log",
+            "Sketchbook"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "BIS Certification",
+          "options": [
+            "Yes"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    }
+  }
+}

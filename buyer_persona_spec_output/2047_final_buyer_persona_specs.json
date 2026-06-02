@@ -1,0 +1,23 @@
+[
+  {
+    "spec_name": "Buyer Type",
+    "spec_values": [
+      "Contractor / Builder",
+      "Wholesaler / Distributor",
+      "Farmer",
+      "Industrial Buyer"
+    ],
+    "reasoning": "Based on the four distinct segments in the 'Buyer Archetypes' section (Sec 9), which show different procurement needs and decision criteria."
+  },
+  {
+    "spec_name": "Application",
+    "spec_values": [
+      "Agriculture / Irrigation",
+      "Construction / Plumbing",
+      "Borewell / Submersible",
+      "Industrial Use",
+      "Infrastructure Project"
+    ],
+    "reasoning": "Based on the primary use cases in the 'Industry Applications' table (Sec 7.1), which dictate the required pipe type and specifications."
+  }
+]

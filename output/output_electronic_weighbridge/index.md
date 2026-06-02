@@ -1,0 +1,340 @@
+# 📑 Category Index — Electronic Weighbridge
+
+> Generated on 2026-05-21 12:25:18 UTC
+
+This is the central dashboard for this category, linking to the full wiki article, execution logs, and source references.
+
+---
+
+## 📝 Category Overview
+
+> <RESOLVED doubt_id=DOUBT-002>The evaluator's feedback, despite the high score, indicated a need for greater depth to be truly authoritative. This enrichment pass addresses that by incorporating…
+
+## 🔗 Traceability & Files
+
+- **📚 Wiki Page:** [electronic_weighbridge.md](electronic_weighbridge.md)
+- **📋 Execution Logs:** [logs.md](logs.md)
+- **📖 Source References:** [references.md](references.md)
+- **🤔 Agent Doubts:** [doubts.md](doubts.md)
+
+---
+
+## 🗺️ Wiki Structure
+
+- - **1. Quick Facts**
+-   - 🔹 Category
+-   - 🔹 Common Names
+-   - 🔹 Key Specifications
+-   - 🔹 Price Range
+-   - 🔹 Popular Brands
+-   - 🔹 Key Standard
+-   - 🔹 Primary Use
+-   - 🔹 MOQ
+- - **2. Category Overview**
+- - **3. Seller-Side Specifications**
+-   - 🔹 Capacity
+-   - 🔹 Platform Size
+-   - 🔹 Platform Length
+-   - 🔹 Platform Width
+-   - 🔹 Installation Type
+-   - 🔹 Platform Material
+-   - 🔹 Accuracy
+-   - 🔹 Accuracy Variation (Portable)
+-   - 🔹 Loadcell Type
+-   - 🔹 Number of Loadcells
+-   - 🔹 Vehicle Compatibility
+-   - 🔹 Application
+-   - 🔹 Certifications
+-   - 🔹 Warranty
+-   - 🔹 Calibration
+- - **4. Buyer-Side Specifications**
+-   - **Must-have specs a buyer always states**
+-     - 🔹 Capacity
+-     - 🔹 Application/Vehicle Type
+-   - **Nice-to-have specs included when the buyer has a preference**
+-     - 🔹 Platform Size/Dimensions
+-     - 🔹 Installation Type
+-     - 🔹 Accuracy
+-   - 🔹 How buyers express quantity
+-   - 🔹 How buyers signal quality
+-   - **Commonly Omitted**
+-     - 🔹 Width
+-     - 🔹 Technical Details
+- - **5. Call Specifications**
+-   - 🔹 Pricing & Total Cost
+-   - 🔹 Financing & Documentation
+-   - 🔹 After-Sales & Logistics
+-   - 🔹 Next Steps
+-   - 🔹 Capacity + Vehicle Compatibility
+-   - 🔹 Platform Length + Installation Type
+-   - 🔹 Application + Requirement Duration
+-   - 🔹 Seller clarifies Use Case
+-   - 🔹 Seller clarifies Material Weighed
+-   - 🔹 Seller manages Accuracy Expectations
+-   - 🔹 Seller proposes Standard Sizes
+-   - 🔹 Seller confirms Location
+- - **6. PDF / Document Specifications**
+-   - 🔹 Spec Clusters in Datasheets
+-   - 🔹 PDF-Only Specs
+-   - 🔹 Compliance and Trust Marks
+-   - 🔹 Common Table Structures
+- - **7. Most Relevant Spec Combinations (Model Products)**
+-   - **Light Commercial / Small Business Model**
+-     - 🔹 Capacity
+-     - 🔹 Platform Dimensions
+-     - 🔹 Accuracy
+-     - 🔹 Use Case
+-   - **Standard Commercial / Public Weighbridge Model**
+-     - 🔹 Capacity
+-     - 🔹 Platform Dimensions
+-     - 🔹 Accuracy
+-     - 🔹 Use Case
+-   - **Heavy Industrial / Highway Model**
+-     - 🔹 Capacity
+-     - 🔹 Platform Dimensions
+-     - 🔹 Accuracy
+-     - 🔹 Use Case
+-   - **Temporary / Rental Model**
+-     - 🔹 Product Type
+-     - 🔹 Accuracy
+-     - 🔹 Use Case
+- - **8. Spec Contradictions and Flags**
+-   - **Flag**
+-     - 🔹 The combination
+-     - 🔹 Why it is wrong
+-     - 🔹 Severity
+-   - **Flag**
+-     - 🔹 The combination
+-     - 🔹 Why it is wrong
+-     - 🔹 Severity
+-   - **Flag**
+-     - 🔹 The combination
+-     - 🔹 Why it is wrong
+-     - 🔹 Severity
+- - **9. Price-Defining Specs**
+-   - 🔹 Capacity
+-   - 🔹 Platform Length/Dimensions
+-   - 🔹 Platform Material
+-   - 🔹 Loadcell Technology & Quality
+-   - 🔹 Installation Type
+-   - 🔹 Software & Automation
+-   - 🔹 Portable Axle Weigh Pad
+-   - 🔹 60 Tonne
+-   - 🔹 80 Tonne
+-   - 🔹 100 Tonne
+-   - 🔹 GST Rate
+- - **10. Buyer Personas**
+-   - 🔹 Public Weighbridge Entrepreneur (Dharam Kanta Owner)
+-   - 🔹 Industrial Plant Manager (Captive User)
+-   - 🔹 Agri-Business / Co-op Manager
+-   - 🔹 Builder/Contractor (Temporary User)
+- - **11. Seller Personas**
+-   - 🔹 National Manufacturer/Brand
+-   - 🔹 Regional Fabricator/Distributor
+- - **12. Listing Spec Tiers**
+-   - 🔹 PRIMARY (Essential for Search)
+-   - 🔹 SECONDARY (Important for Filtering)
+-   - 🔹 TERTIARY (For Detailed Comparison)
+- - **13. Glossary**
+-   - 🔹 Dharam Kanta / धरम कांटा
+-   - 🔹 Civil Work
+-   - 🔹 IS 1436:1991
+-   - 🔹 Legal Metrology Stamping
+-   - 🔹 OIML
+-   - 🔹 OIML R60
+-   - 🔹 Pit Type
+-   - 🔹 Pitless Type
+-   - 🔹 Portable Axle Weigh Pad
+-   - 🔹 Koteshan
+-   - 🔹 Zameen ke neeche
+-   - 🔹 14/22-wheeler truck
+- - **14. Wiki Metadata**
+-   - 🔹 Category Path
+-   - 🔹 Tags
+-   - 🔹 Sources Ingested
+-   - 🔹 Data Types
+-   - 🔹 Brands Covered
+-   - 🔹 Standards Referenced
+-   - 🔹 Market
+-   - 🔹 Last Updated
+- - **15. Source References**
+-   - 🔹 call 1.json
+-   - 🔹 call 10.json
+-   - 🔹 call 11.json
+-   - 🔹 call 12.json
+-   - 🔹 call 13.json
+-   - 🔹 call 2.json
+-   - 🔹 call 3.json
+-   - 🔹 call 4.json
+-   - 🔹 call 5.json
+-   - 🔹 call 6.json
+-   - 🔹 call 7.json
+-   - 🔹 call 8.json
+-   - 🔹 call 9.json
+-   - 🔹 pdf 1-bpl-electronic-static-road-weighbridge.json
+-   - 🔹 pdf 2-concrete-platform-weighbridge.json
+-   - 🔹 pdf 3-dharam-kanta-weighbridge.json
+-   - 🔹 pdf 4-electronic-weighbridge-india.json
+-   - 🔹 pdf 4-electronic-weighbridge.json
+-   - 🔹 pdf 5-electronic-weighbridge.json
+
+## 📋 Log Sections
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total sources scanned
+- - 🔸 New/changed sources processed
+- - 🔸 Sources removed since last run
+- - **📊 Run Summary**
+- - **📂 Sources Inventory**
+- - **🔄 Step-by-Step Execution Log**
+-   - **Step 1: 📥 PICK SOURCES**
+-   - **Step 2: 🏷️ CATEGORY**
+-   - **Step 3: 🔍 CHECK WIKI**
+-   - **Step 4: 📝 CREATE**
+-     - 🔹 Sources 1-3/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 4-6/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 7-9/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 10-12/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 13-15/15
+-     - 🔹 Extraction Summary
+-   - **Step 5: 📊 EVALUATE**
+-     - 🔹 Insufficient and Contradictory Price Data
+-     - 🔹 Missing Total Cost of Ownership (TCO) Specs
+-     - 🔹 Underdeveloped Spec Contradictions
+-   - **Step 6: 📥 PICK SOURCES**
+-   - **Step 7: 🏷️ CATEGORY**
+-   - **Step 8: 🔍 CHECK WIKI**
+-   - **Step 9: 🔄 UPDATE**
+-     - 🔹 Sources 1-3/3
+-     - 🔹 Extraction Summary
+-   - **Step 10: 📊 EVALUATE**
+-     - 🔹 Incomplete PDF Specification Extraction
+-     - 🔹 Missing Price Multiplier Analysis
+-     - 🔹 Generic Seller Persona Risks
+-   - **Step 11: ✨ ENRICH**
+-     - 🔹 Rationale
+-     - 🔹 Inferred
+-     - 🔹 Updates made
+-     - 🔹 Top hit
+-     - 🔹 Rationale
+-     - 🔹 Inferred
+-     - 🔹 Updates made
+-     - 🔹 Top hit
+-     - 🔹 Rationale
+-     - 🔹 Inferred
+-     - 🔹 Updates made
+-     - 🔹 Top hit
+
+## 📖 Reference Sections
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total New References
+- - **📄 JSON Data Sources**
+-   - **1. `call 1.json`**
+-   - **2. `call 10.json`**
+-   - **3. `call 11.json`**
+-   - **4. `call 12.json`**
+-   - **5. `call 13.json`**
+-   - **6. `call 2.json`**
+-   - **7. `call 3.json`**
+-   - **8. `call 4.json`**
+-   - **9. `call 5.json`**
+-   - **10. `call 6.json`**
+-   - **11. `pdf 1-bpl-electronic-static-road-weighbridge.json`**
+-   - **12. `pdf 2-concrete-platform-weighbridge.json`**
+-   - **13. `pdf 3-dharam-kanta-weighbridge.json`**
+-   - **14. `pdf 4-electronic-weighbridge-india.json`**
+-   - **15. `pdf 5-electronic-weighbridge.json`**
+-   - **16. `call 1.json`**
+-   - **17. `call 10.json`**
+-   - **18. `call 11.json`**
+-   - **19. `call 12.json`**
+-   - **20. `call 13.json`**
+-   - **21. `call 2.json`**
+-   - **22. `call 3.json`**
+-   - **23. `call 4.json`**
+-   - **24. `call 5.json`**
+-   - **25. `call 6.json`**
+-   - **26. `pdf 1-bpl-electronic-static-road-weighbridge.json`**
+-   - **27. `pdf 2-concrete-platform-weighbridge.json`**
+-   - **28. `pdf 3-dharam-kanta-weighbridge.json`**
+-   - **29. `pdf 4-electronic-weighbridge-india.json`**
+-   - **30. `pdf 5-electronic-weighbridge.json`**
+-   - **31. `call 7.json`**
+-   - **32. `call 1.json`**
+-   - **33. `call 10.json`**
+-   - **34. `call 11.json`**
+-   - **35. `call 12.json`**
+-   - **36. `call 13.json`**
+-   - **37. `call 2.json`**
+-   - **38. `call 3.json`**
+-   - **39. `call 4.json`**
+-   - **40. `call 5.json`**
+-   - **41. `call 6.json`**
+-   - **42. `pdf 1-bpl-electronic-static-road-weighbridge.json`**
+-   - **43. `pdf 2-concrete-platform-weighbridge.json`**
+-   - **44. `pdf 3-dharam-kanta-weighbridge.json`**
+-   - **45. `pdf 4-electronic-weighbridge-india.json`**
+-   - **46. `pdf 5-electronic-weighbridge.json`**
+-   - **47. `call 8.json`**
+-   - **48. `call 1.json`**
+-   - **49. `call 10.json`**
+-   - **50. `call 11.json`**
+-   - **51. `call 12.json`**
+-   - **52. `call 13.json`**
+-   - **53. `call 2.json`**
+-   - **54. `call 3.json`**
+-   - **55. `call 4.json`**
+-   - **56. `call 5.json`**
+-   - **57. `call 6.json`**
+-   - **58. `pdf 1-bpl-electronic-static-road-weighbridge.json`**
+-   - **59. `pdf 2-concrete-platform-weighbridge.json`**
+-   - **60. `pdf 3-dharam-kanta-weighbridge.json`**
+-   - **61. `pdf 4-electronic-weighbridge-india.json`**
+-   - **62. `pdf 5-electronic-weighbridge.json`**
+-   - **63. `call 9.json`**
+- - **📎 Web_Search Sources**
+-   - **1. `WEB: popular electronic weighbridge manufacturers and brands in India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **2. `WEB: Indian Standard IS code for electronic weighbridge legal metrology`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **3. `WEB: what is OIML R60 standard for load cells`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+
+## 🤔 Agent Doubt Log
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total Doubts Raised This Run
+- - 🔸 Unresolved
+- - 🔸 Self-Resolved
+- - **🔴 Unresolved Doubts**
+-   - **🟡 DOUBT-002: Evaluator Feedback → Iteration 2**
+-     - 🔹 Severity
+-     - 🔹 Raised at
+-     - 🔹 Question
+- - **✅ Self-Resolved Doubts**
+-   - **DOUBT-001: Evaluator Feedback → Iteration 1 *(Resolved)***
+-     - 🔹 Originally raised at
+-     - 🔹 Question
+-     - 🔹 Resolved at
+-     - 🔹 Resolution
+
+---
+
+*Index generated at 2026-05-21 12:25:18 UTC*

@@ -1,0 +1,1057 @@
+# 📑 Category Index — Paper Plate Making Machine
+
+> Generated on 2026-05-07 12:59:53 UTC
+
+This is the central dashboard for this category, linking to the full wiki article, execution logs, and source references.
+
+---
+
+## 📝 Category Overview
+
+> This category comprises industrial machinery designed for forming and cutting paper into disposable tableware. These are **capital equipment** purchases for businesses looking to manufacture and sell…
+
+## 🔗 Traceability & Files
+
+- **📚 Wiki Page:** [paper_plate_making_machine.md](paper_plate_making_machine.md)
+- **📋 Execution Logs:** [logs.md](logs.md)
+- **📖 Source References:** [references.md](references.md)
+- **🤔 Agent Doubts:** [doubts.md](doubts.md)
+
+---
+
+## 🗺️ Wiki Structure
+
+- - **Quick Facts**
+-   - 🔹 Category
+-   - 🔹 Common Names
+-   - 🔹 Primary Use
+-   - 🔹 Key Specifications
+-   - 🔹 Price Range (per unit)
+-   - 🔹 Popular Brands
+-   - 🔹 Key Standard
+-   - 🔹 MOQ
+- - **1. Category Overview**
+-     - **Machine Lifecycle, Maintenance & TCO**
+-       - 🔹 Installation & Training
+-       - 🔹 Warranty
+-       - **Common Failure Points & Prevention**
+-         - 🔹 Paper Dust & Residue
+-         - 🔹 Hydraulic & Pneumatic Issues
+-         - 🔹 Electrical Faults
+-         - 🔹 Bearing Failure
+-       - **Spare Parts & TCO**
+-         - 🔹 Dies
+-         - 🔹 Heaters
+-         - 🔹 Motors
+-         - 🔹 Maintenance Log
+- - **2. Seller-Side Specifications**
+-   - 🔹 Model Number
+-   - 🔹 Operation Type
+-   - 🔹 Die Configuration
+-   - 🔹 Dies Included
+-   - 🔹 Die Change Capability
+-   - 🔹 Included Die Size
+-   - 🔹 Die Compatibility
+-   - 🔹 Mechanism
+-   - 🔹 Body Type
+-   - 🔹 Production Capacity
+-   - 🔹 Production Strokes
+-   - 🔹 Items Produced
+-   - 🔹 Die Size Capability
+-   - 🔹 Raw Material Yield
+-   - 🔹 Raw Material (GSM)
+-   - 🔹 Power Supply
+-   - 🔹 Motor Power
+-   - 🔹 Motor Speed
+-   - 🔹 Power Consumption
+-   - 🔹 Included Accessories
+-   - 🔹 Warranty
+-   - 🔹 Weight of Machine
+-   - 🔹 Dimensions
+-   - 🔹 Price
+-   - 🔹 Component Price
+- - **3. Buyer Specifications**
+-   - 🔹 Product Type
+-   - 🔹 Production Capacity
+-   - 🔹 Number of Dies
+-   - 🔹 Operation Mode
+-   - 🔹 Construction/Durability
+-   - 🔹 Power Requirements
+-   - 🔹 Warranty & Service
+-   - 🔹 Business Viability
+-   - 🔹 Financing & Business Setup
+-   - 🔹 Quantity
+-   - 🔹 Quality
+- - **4. Most Relevant Spec Combinations**
+-   - 🔹 Operation Type
+-   - 🔹 Die Configuration
+-   - 🔹 Body Type/Construction
+-   - 🔹 Manual Hand Press
+-   - 🔹 Automatic Machine (Single Die)
+-   - 🔹 Crank Model (Single Die)
+-   - 🔹 Loose Plate Machine (Single Die)
+-   - 🔹 Automatic Machine (Double Die)
+-   - 🔹 Buffer Plate Machine (Single Die)
+-   - 🔹 Crank Machine (Double Die)
+-   - 🔹 Automatic Machine (Angle Construction)
+-   - 🔹 Automatic Machine (Pipe Construction)
+-   - 🔹 Lever Type Machine
+-   - 🔹 Push Button Automatic Machine
+-   - 🔹 Price Structure
+-   - 🔹 Production Rate vs. Product Size
+-   - 🔹 Output Size & Power
+-   - 🔹 Double Die Output
+- - **5. Spec Contradictions & Flags**
+-   - **Flag Over-generalized Functionality**
+-     - 🔹 Issue
+-     - 🔹 Severity
+-     - 🔹 Action
+-   - **Flag Miscategorization by Price Point**
+-     - 🔹 Issue
+-     - 🔹 Severity
+-     - 🔹 Action
+-   - **Flag Ambiguous Term - `Quality` Grades**
+-     - 🔹 Issue
+-     - 🔹 Severity
+-     - 🔹 Action
+-   - **Flag Ambiguous Term - Colloquial Die Sizing**
+-     - 🔹 Issue
+-     - 🔹 Severity
+-     - 🔹 Action
+-   - **Flag Ambiguous Term - `Capacity all in one`**
+-     - 🔹 Issue
+-     - 🔹 Severity
+-     - 🔹 Action
+- - **6. Price-Defining Specs & Variation**
+-   - 🔹 Operation Type
+-   - 🔹 Body Type/Construction
+-   - 🔹 Die Configuration
+-   - 🔹 Seller-defined Quality
+-   - 🔹 Manual Machine
+-   - 🔹 Crank Machine
+-   - 🔹 Specialized Single Die Machines
+-   - 🔹 Automatic Machines (Standard)
+-   - 🔹 Automatic (Angle Construction)
+-   - 🔹 Automatic (Pipe Construction)
+-   - 🔹 High-End Semi-Auto/Automatic
+-   - 🔹 Paper Plate Dies
+-   - 🔹 Die Heaters
+- - **7. Buyer Personas**
+-   - **The First-Time Entrepreneur**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Omitted Specs
+-     - 🔹 Timeline
+-   - **The Growth-Focused Manufacturer**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Omitted Specs & Key Questions
+-     - 🔹 Timeline
+-   - **The Scale-Up Manufacturer (Heavy-Duty Focus)**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Omitted Specs
+-     - 🔹 Timeline
+- - **8. Seller Personas**
+-   - **The Comprehensive Manufacturer (e.g., HARIRAM, ATMIYA)**
+-     - 🔹 Listing Data
+-     - 🔹 Structure
+-     - 🔹 Trust Signals
+-     - 🔹 Extraction Difficulty
+-   - **The Value-Added Regional Supplier (e.g., Sellers in Delhi, Varanasi, Coimbatore, Ghaziabad, Patna)**
+-     - 🔹 Listing Data
+-     - 🔹 Structure
+-     - 🔹 Trust Signals
+-     - 🔹 Extraction Difficulty
+-   - **The Multi-Product Trader**
+-     - 🔹 Listing Data
+-     - 🔹 Structure
+-     - 🔹 Trust Signals
+-     - 🔹 Extraction Difficulty
+- - **9. Listing Spec Tiers**
+-   - 🔹 Operation Type
+-   - 🔹 Body Type
+-   - 🔹 Die Configuration
+-   - 🔹 Items Produced
+-   - 🔹 Production Capacity
+-   - 🔹 Die Size Capability
+-   - 🔹 Motor Power
+-   - 🔹 Raw Material (GSM)
+-   - 🔹 Warranty
+-   - 🔹 Power Supply
+-   - 🔹 Model Number
+-   - 🔹 Motor Brand
+-   - 🔹 Die Compatibility
+-   - 🔹 Raw Material Yield
+-   - 🔹 Power Consumption
+-   - 🔹 Mechanism
+-   - 🔹 Weight of Machine
+-   - 🔹 Dimensions
+-   - 🔹 Included Accessories
+- - **Glossary**
+-   - 🔹 Angle Construction
+-   - 🔹 Buffer Plate / Buffer Sheet
+-   - 🔹 Channel Body / Full Channel Body
+-   - 🔹 CM Yuva Nidhi
+-   - 🔹 Crank Model
+-   - 🔹 Die
+-   - 🔹 Dona
+-   - 🔹 Ghar ki bijli
+-   - 🔹 GSM (Grams per Square Meter)
+-   - 🔹 Lever Type
+-   - 🔹 Loose Plate
+-   - 🔹 Pattal
+-   - 🔹 Pipe Construction
+-   - 🔹 TCO (Total Cost of Ownership)
+-   - 🔹 Thali
+- - **Wiki Metadata**
+-   - 🔹 Category Path
+-   - 🔹 Tags
+-   - 🔹 Sources Ingested
+-   - 🔹 Data Types
+-   - 🔹 Brands Covered
+-   - 🔹 Standards Referenced
+-   - 🔹 Market
+-   - 🔹 Last Updated
+
+## 📋 Log Sections
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total sources scanned
+- - 🔸 New/changed sources processed
+- - 🔸 Sources removed since last run
+- - **📊 Run Summary**
+- - **📂 Sources Inventory**
+- - **🔄 Step-by-Step Execution Log**
+-   - **Step 1: 📥 PICK SOURCES**
+-   - **Step 2: 🏷️ CATEGORY**
+-   - **Step 3: 🔍 CHECK WIKI**
+-   - **Step 4: 📝 CREATE**
+-     - 🔹 Sources 1-3/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 4-6/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 7-9/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 10-12/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 13-15/15
+-     - 🔹 Extraction Summary
+-   - **Step 5: 📊 EVALUATE**
+-   - **Step 6: 📥 PICK SOURCES**
+-   - **Step 7: 🏷️ CATEGORY**
+-   - **Step 8: 🔍 CHECK WIKI**
+-   - **Step 9: 🔄 UPDATE**
+-     - 🔹 Sources 1-3/5
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 4-5/5
+-     - 🔹 Extraction Summary
+-   - **Step 10: 📊 EVALUATE**
+-   - **Step 11: 📥 PICK SOURCES**
+-   - **Step 12: 🏷️ CATEGORY**
+-   - **Step 13: 🔍 CHECK WIKI**
+-   - **Step 14: 🔄 UPDATE**
+-     - 🔹 Sources 1-3/5
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 4-5/5
+-     - 🔹 Extraction Summary
+-   - **Step 15: 📊 EVALUATE**
+-   - **Step 16: ✨ ENRICH**
+
+## 📖 Reference Sections
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total New References
+- - **📄 JSON Data Sources**
+-   - **1. `call 1.json`**
+-   - **2. `call 10.json`**
+-   - **3. `call 100.json`**
+-   - **4. `call 101.json`**
+-   - **5. `call 102.json`**
+-   - **6. `call 103.json`**
+-   - **7. `call 104.json`**
+-   - **8. `call 105.json`**
+-   - **9. `call 106.json`**
+-   - **10. `call 107.json`**
+-   - **11. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **12. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **13. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **14. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **15. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **16. `call 1.json`**
+-   - **17. `call 10.json`**
+-   - **18. `call 100.json`**
+-   - **19. `call 101.json`**
+-   - **20. `call 102.json`**
+-   - **21. `call 103.json`**
+-   - **22. `call 104.json`**
+-   - **23. `call 105.json`**
+-   - **24. `call 106.json`**
+-   - **25. `call 107.json`**
+-   - **26. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **27. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **28. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **29. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **30. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **31. `call 108.json`**
+-   - **32. `call 1.json`**
+-   - **33. `call 10.json`**
+-   - **34. `call 100.json`**
+-   - **35. `call 101.json`**
+-   - **36. `call 102.json`**
+-   - **37. `call 103.json`**
+-   - **38. `call 104.json`**
+-   - **39. `call 105.json`**
+-   - **40. `call 106.json`**
+-   - **41. `call 107.json`**
+-   - **42. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **43. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **44. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **45. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **46. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **47. `call 109.json`**
+-   - **48. `call 1.json`**
+-   - **49. `call 10.json`**
+-   - **50. `call 100.json`**
+-   - **51. `call 101.json`**
+-   - **52. `call 102.json`**
+-   - **53. `call 103.json`**
+-   - **54. `call 104.json`**
+-   - **55. `call 105.json`**
+-   - **56. `call 106.json`**
+-   - **57. `call 107.json`**
+-   - **58. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **59. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **60. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **61. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **62. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **63. `call 11.json`**
+-   - **64. `call 1.json`**
+-   - **65. `call 10.json`**
+-   - **66. `call 100.json`**
+-   - **67. `call 101.json`**
+-   - **68. `call 102.json`**
+-   - **69. `call 103.json`**
+-   - **70. `call 104.json`**
+-   - **71. `call 105.json`**
+-   - **72. `call 106.json`**
+-   - **73. `call 107.json`**
+-   - **74. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **75. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **76. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **77. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **78. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **79. `call 110.json`**
+-   - **80. `call 1.json`**
+-   - **81. `call 10.json`**
+-   - **82. `call 100.json`**
+-   - **83. `call 101.json`**
+-   - **84. `call 102.json`**
+-   - **85. `call 103.json`**
+-   - **86. `call 104.json`**
+-   - **87. `call 105.json`**
+-   - **88. `call 106.json`**
+-   - **89. `call 107.json`**
+-   - **90. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **91. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **92. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **93. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **94. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **95. `call 111.json`**
+-   - **96. `call 1.json`**
+-   - **97. `call 10.json`**
+-   - **98. `call 100.json`**
+-   - **99. `call 101.json`**
+-   - **100. `call 102.json`**
+-   - **101. `call 103.json`**
+-   - **102. `call 104.json`**
+-   - **103. `call 105.json`**
+-   - **104. `call 106.json`**
+-   - **105. `call 107.json`**
+-   - **106. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **107. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **108. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **109. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **110. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **111. `call 1.json`**
+-   - **112. `call 10.json`**
+-   - **113. `call 100.json`**
+-   - **114. `call 101.json`**
+-   - **115. `call 102.json`**
+-   - **116. `call 103.json`**
+-   - **117. `call 104.json`**
+-   - **118. `call 105.json`**
+-   - **119. `call 106.json`**
+-   - **120. `call 107.json`**
+-   - **121. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **122. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **123. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **124. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **125. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **126. `call 108.json`**
+-   - **127. `call 1.json`**
+-   - **128. `call 10.json`**
+-   - **129. `call 100.json`**
+-   - **130. `call 101.json`**
+-   - **131. `call 102.json`**
+-   - **132. `call 103.json`**
+-   - **133. `call 104.json`**
+-   - **134. `call 105.json`**
+-   - **135. `call 106.json`**
+-   - **136. `call 107.json`**
+-   - **137. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **138. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **139. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **140. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **141. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **142. `call 109.json`**
+-   - **143. `call 1.json`**
+-   - **144. `call 10.json`**
+-   - **145. `call 100.json`**
+-   - **146. `call 101.json`**
+-   - **147. `call 102.json`**
+-   - **148. `call 103.json`**
+-   - **149. `call 104.json`**
+-   - **150. `call 105.json`**
+-   - **151. `call 106.json`**
+-   - **152. `call 107.json`**
+-   - **153. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **154. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **155. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **156. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **157. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **158. `call 11.json`**
+-   - **159. `call 1.json`**
+-   - **160. `call 10.json`**
+-   - **161. `call 100.json`**
+-   - **162. `call 101.json`**
+-   - **163. `call 102.json`**
+-   - **164. `call 103.json`**
+-   - **165. `call 104.json`**
+-   - **166. `call 105.json`**
+-   - **167. `call 106.json`**
+-   - **168. `call 107.json`**
+-   - **169. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **170. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **171. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **172. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **173. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **174. `call 110.json`**
+-   - **175. `call 1.json`**
+-   - **176. `call 10.json`**
+-   - **177. `call 100.json`**
+-   - **178. `call 101.json`**
+-   - **179. `call 102.json`**
+-   - **180. `call 103.json`**
+-   - **181. `call 104.json`**
+-   - **182. `call 105.json`**
+-   - **183. `call 106.json`**
+-   - **184. `call 107.json`**
+-   - **185. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **186. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **187. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **188. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **189. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **190. `call 111.json`**
+-   - **191. `call 112.json`**
+-   - **192. `call 1.json`**
+-   - **193. `call 10.json`**
+-   - **194. `call 100.json`**
+-   - **195. `call 101.json`**
+-   - **196. `call 102.json`**
+-   - **197. `call 103.json`**
+-   - **198. `call 104.json`**
+-   - **199. `call 105.json`**
+-   - **200. `call 106.json`**
+-   - **201. `call 107.json`**
+-   - **202. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **203. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **204. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **205. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **206. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **207. `call 1.json`**
+-   - **208. `call 10.json`**
+-   - **209. `call 100.json`**
+-   - **210. `call 101.json`**
+-   - **211. `call 102.json`**
+-   - **212. `call 103.json`**
+-   - **213. `call 104.json`**
+-   - **214. `call 105.json`**
+-   - **215. `call 106.json`**
+-   - **216. `call 107.json`**
+-   - **217. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **218. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **219. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **220. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **221. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **222. `call 108.json`**
+-   - **223. `call 1.json`**
+-   - **224. `call 10.json`**
+-   - **225. `call 100.json`**
+-   - **226. `call 101.json`**
+-   - **227. `call 102.json`**
+-   - **228. `call 103.json`**
+-   - **229. `call 104.json`**
+-   - **230. `call 105.json`**
+-   - **231. `call 106.json`**
+-   - **232. `call 107.json`**
+-   - **233. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **234. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **235. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **236. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **237. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **238. `call 109.json`**
+-   - **239. `call 1.json`**
+-   - **240. `call 10.json`**
+-   - **241. `call 100.json`**
+-   - **242. `call 101.json`**
+-   - **243. `call 102.json`**
+-   - **244. `call 103.json`**
+-   - **245. `call 104.json`**
+-   - **246. `call 105.json`**
+-   - **247. `call 106.json`**
+-   - **248. `call 107.json`**
+-   - **249. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **250. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **251. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **252. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **253. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **254. `call 11.json`**
+-   - **255. `call 1.json`**
+-   - **256. `call 10.json`**
+-   - **257. `call 100.json`**
+-   - **258. `call 101.json`**
+-   - **259. `call 102.json`**
+-   - **260. `call 103.json`**
+-   - **261. `call 104.json`**
+-   - **262. `call 105.json`**
+-   - **263. `call 106.json`**
+-   - **264. `call 107.json`**
+-   - **265. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **266. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **267. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **268. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **269. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **270. `call 110.json`**
+-   - **271. `call 1.json`**
+-   - **272. `call 10.json`**
+-   - **273. `call 100.json`**
+-   - **274. `call 101.json`**
+-   - **275. `call 102.json`**
+-   - **276. `call 103.json`**
+-   - **277. `call 104.json`**
+-   - **278. `call 105.json`**
+-   - **279. `call 106.json`**
+-   - **280. `call 107.json`**
+-   - **281. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **282. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **283. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **284. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **285. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **286. `call 111.json`**
+-   - **287. `call 113.json`**
+-   - **288. `call 1.json`**
+-   - **289. `call 10.json`**
+-   - **290. `call 100.json`**
+-   - **291. `call 101.json`**
+-   - **292. `call 102.json`**
+-   - **293. `call 103.json`**
+-   - **294. `call 104.json`**
+-   - **295. `call 105.json`**
+-   - **296. `call 106.json`**
+-   - **297. `call 107.json`**
+-   - **298. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **299. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **300. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **301. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **302. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **303. `call 1.json`**
+-   - **304. `call 10.json`**
+-   - **305. `call 100.json`**
+-   - **306. `call 101.json`**
+-   - **307. `call 102.json`**
+-   - **308. `call 103.json`**
+-   - **309. `call 104.json`**
+-   - **310. `call 105.json`**
+-   - **311. `call 106.json`**
+-   - **312. `call 107.json`**
+-   - **313. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **314. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **315. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **316. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **317. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **318. `call 108.json`**
+-   - **319. `call 1.json`**
+-   - **320. `call 10.json`**
+-   - **321. `call 100.json`**
+-   - **322. `call 101.json`**
+-   - **323. `call 102.json`**
+-   - **324. `call 103.json`**
+-   - **325. `call 104.json`**
+-   - **326. `call 105.json`**
+-   - **327. `call 106.json`**
+-   - **328. `call 107.json`**
+-   - **329. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **330. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **331. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **332. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **333. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **334. `call 109.json`**
+-   - **335. `call 1.json`**
+-   - **336. `call 10.json`**
+-   - **337. `call 100.json`**
+-   - **338. `call 101.json`**
+-   - **339. `call 102.json`**
+-   - **340. `call 103.json`**
+-   - **341. `call 104.json`**
+-   - **342. `call 105.json`**
+-   - **343. `call 106.json`**
+-   - **344. `call 107.json`**
+-   - **345. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **346. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **347. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **348. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **349. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **350. `call 11.json`**
+-   - **351. `call 1.json`**
+-   - **352. `call 10.json`**
+-   - **353. `call 100.json`**
+-   - **354. `call 101.json`**
+-   - **355. `call 102.json`**
+-   - **356. `call 103.json`**
+-   - **357. `call 104.json`**
+-   - **358. `call 105.json`**
+-   - **359. `call 106.json`**
+-   - **360. `call 107.json`**
+-   - **361. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **362. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **363. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **364. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **365. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **366. `call 110.json`**
+-   - **367. `call 1.json`**
+-   - **368. `call 10.json`**
+-   - **369. `call 100.json`**
+-   - **370. `call 101.json`**
+-   - **371. `call 102.json`**
+-   - **372. `call 103.json`**
+-   - **373. `call 104.json`**
+-   - **374. `call 105.json`**
+-   - **375. `call 106.json`**
+-   - **376. `call 107.json`**
+-   - **377. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **378. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **379. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **380. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **381. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **382. `call 111.json`**
+-   - **383. `call 114.json`**
+-   - **384. `call 1.json`**
+-   - **385. `call 10.json`**
+-   - **386. `call 100.json`**
+-   - **387. `call 101.json`**
+-   - **388. `call 102.json`**
+-   - **389. `call 103.json`**
+-   - **390. `call 104.json`**
+-   - **391. `call 105.json`**
+-   - **392. `call 106.json`**
+-   - **393. `call 107.json`**
+-   - **394. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **395. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **396. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **397. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **398. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **399. `call 1.json`**
+-   - **400. `call 10.json`**
+-   - **401. `call 100.json`**
+-   - **402. `call 101.json`**
+-   - **403. `call 102.json`**
+-   - **404. `call 103.json`**
+-   - **405. `call 104.json`**
+-   - **406. `call 105.json`**
+-   - **407. `call 106.json`**
+-   - **408. `call 107.json`**
+-   - **409. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **410. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **411. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **412. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **413. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **414. `call 108.json`**
+-   - **415. `call 1.json`**
+-   - **416. `call 10.json`**
+-   - **417. `call 100.json`**
+-   - **418. `call 101.json`**
+-   - **419. `call 102.json`**
+-   - **420. `call 103.json`**
+-   - **421. `call 104.json`**
+-   - **422. `call 105.json`**
+-   - **423. `call 106.json`**
+-   - **424. `call 107.json`**
+-   - **425. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **426. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **427. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **428. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **429. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **430. `call 109.json`**
+-   - **431. `call 1.json`**
+-   - **432. `call 10.json`**
+-   - **433. `call 100.json`**
+-   - **434. `call 101.json`**
+-   - **435. `call 102.json`**
+-   - **436. `call 103.json`**
+-   - **437. `call 104.json`**
+-   - **438. `call 105.json`**
+-   - **439. `call 106.json`**
+-   - **440. `call 107.json`**
+-   - **441. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **442. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **443. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **444. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **445. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **446. `call 11.json`**
+-   - **447. `call 1.json`**
+-   - **448. `call 10.json`**
+-   - **449. `call 100.json`**
+-   - **450. `call 101.json`**
+-   - **451. `call 102.json`**
+-   - **452. `call 103.json`**
+-   - **453. `call 104.json`**
+-   - **454. `call 105.json`**
+-   - **455. `call 106.json`**
+-   - **456. `call 107.json`**
+-   - **457. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **458. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **459. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **460. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **461. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **462. `call 110.json`**
+-   - **463. `call 1.json`**
+-   - **464. `call 10.json`**
+-   - **465. `call 100.json`**
+-   - **466. `call 101.json`**
+-   - **467. `call 102.json`**
+-   - **468. `call 103.json`**
+-   - **469. `call 104.json`**
+-   - **470. `call 105.json`**
+-   - **471. `call 106.json`**
+-   - **472. `call 107.json`**
+-   - **473. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **474. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **475. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **476. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **477. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **478. `call 111.json`**
+-   - **479. `call 115.json`**
+-   - **480. `call 1.json`**
+-   - **481. `call 10.json`**
+-   - **482. `call 100.json`**
+-   - **483. `call 101.json`**
+-   - **484. `call 102.json`**
+-   - **485. `call 103.json`**
+-   - **486. `call 104.json`**
+-   - **487. `call 105.json`**
+-   - **488. `call 106.json`**
+-   - **489. `call 107.json`**
+-   - **490. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **491. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **492. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **493. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **494. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **495. `call 1.json`**
+-   - **496. `call 10.json`**
+-   - **497. `call 100.json`**
+-   - **498. `call 101.json`**
+-   - **499. `call 102.json`**
+-   - **500. `call 103.json`**
+-   - **501. `call 104.json`**
+-   - **502. `call 105.json`**
+-   - **503. `call 106.json`**
+-   - **504. `call 107.json`**
+-   - **505. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **506. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **507. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **508. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **509. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **510. `call 108.json`**
+-   - **511. `call 1.json`**
+-   - **512. `call 10.json`**
+-   - **513. `call 100.json`**
+-   - **514. `call 101.json`**
+-   - **515. `call 102.json`**
+-   - **516. `call 103.json`**
+-   - **517. `call 104.json`**
+-   - **518. `call 105.json`**
+-   - **519. `call 106.json`**
+-   - **520. `call 107.json`**
+-   - **521. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **522. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **523. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **524. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **525. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **526. `call 109.json`**
+-   - **527. `call 1.json`**
+-   - **528. `call 10.json`**
+-   - **529. `call 100.json`**
+-   - **530. `call 101.json`**
+-   - **531. `call 102.json`**
+-   - **532. `call 103.json`**
+-   - **533. `call 104.json`**
+-   - **534. `call 105.json`**
+-   - **535. `call 106.json`**
+-   - **536. `call 107.json`**
+-   - **537. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **538. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **539. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **540. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **541. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **542. `call 11.json`**
+-   - **543. `call 1.json`**
+-   - **544. `call 10.json`**
+-   - **545. `call 100.json`**
+-   - **546. `call 101.json`**
+-   - **547. `call 102.json`**
+-   - **548. `call 103.json`**
+-   - **549. `call 104.json`**
+-   - **550. `call 105.json`**
+-   - **551. `call 106.json`**
+-   - **552. `call 107.json`**
+-   - **553. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **554. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **555. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **556. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **557. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **558. `call 110.json`**
+-   - **559. `call 1.json`**
+-   - **560. `call 10.json`**
+-   - **561. `call 100.json`**
+-   - **562. `call 101.json`**
+-   - **563. `call 102.json`**
+-   - **564. `call 103.json`**
+-   - **565. `call 104.json`**
+-   - **566. `call 105.json`**
+-   - **567. `call 106.json`**
+-   - **568. `call 107.json`**
+-   - **569. `pdf 1-automatic-paper-plate-machine4.json`**
+-   - **570. `pdf 2-fully-auto-paper-plate-making-machine9.json`**
+-   - **571. `pdf 3-fully-automatic-paper-thali-making-machine2.json`**
+-   - **572. `pdf 4-fully-automatic-thali-and-dona-machine (1)5.json`**
+-   - **573. `pdf 5-fully-automatic-thali-dona-making-machine (1)6.json`**
+-   - **574. `call 111.json`**
+-   - **575. `call 116.json`**
+- - **📎 Web_Search Sources**
+-   - **1. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **2. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **3. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **4. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **5. `WEB: BIS standards mandatory for paper plate making machine India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **6. `WEB: duplex paper gsm range for paper plates India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **7. `WEB: common maintenance for hydraulic paper plate making machine`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **8. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **9. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **10. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **11. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **12. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **13. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **14. `WEB: BIS standards mandatory for paper plate making machine India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **15. `WEB: duplex paper gsm range for paper plates India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **16. `WEB: common maintenance for hydraulic paper plate making machine`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **17. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **18. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **19. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **20. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **21. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **22. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **23. `WEB: BIS standards mandatory for paper plate making machine India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **24. `WEB: duplex paper gsm range for paper plates India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **25. `WEB: common maintenance for hydraulic paper plate making machine`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **26. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **27. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **28. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **29. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **30. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **31. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **32. `WEB: BIS standards mandatory for paper plate making machine India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **33. `WEB: duplex paper gsm range for paper plates India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **34. `WEB: common maintenance for hydraulic paper plate making machine`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **35. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **36. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **37. `WEB: common failure points and maintenance paper plate making machine india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **38. `WEB: cost of paper plate machine heater and motor in india`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **39. `WEB: CM Yuva Nidhi scheme India business loan`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **40. `WEB: what is a buffer paper plate vs loose paper plate`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **41. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **42. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **43. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **44. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **45. `WEB: BIS standards mandatory for paper plate making machine India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **46. `WEB: duplex paper gsm range for paper plates India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **47. `WEB: common maintenance for hydraulic paper plate making machine`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **48. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **49. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **50. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **51. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **52. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **53. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **54. `WEB: BIS standards mandatory for paper plate making machine India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **55. `WEB: duplex paper gsm range for paper plates India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **56. `WEB: common maintenance for hydraulic paper plate making machine`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **57. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **58. `WEB: what is "full channel body" in paper plate making machine`**
+-     - 🔹 Web Search Results
+-   - **59. `WEB: paper plate making machine common problems repair maintenance schedule India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **60. `WEB: paper plate machine die heater price India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+
+## 🤔 Agent Doubt Log
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total Doubts Raised This Run
+- - 🔸 Unresolved
+- - 🔸 Self-Resolved
+- - **🔴 Unresolved Doubts**
+-   - **🟡 DOUBT-301: Seller-Side Specifications → Die Size Capability / Items Produced**
+-     - 🔹 Severity
+-     - 🔹 Raised at
+-     - 🔹 Question
+- - **✅ Self-Resolved Doubts**
+-   - **DOUBT-201: Category Overview → Product Functionality *(Resolved)***
+-     - 🔹 Originally raised at
+-     - 🔹 Question
+-     - 🔹 Resolved at
+-     - 🔹 Resolution
+-   - **DOUBT-501: Seller-Side Specifications → Raw Material (GSM) *(Resolved)***
+-     - 🔹 Originally raised at
+-     - 🔹 Question
+-     - 🔹 Resolved at
+-     - 🔹 Resolution
+-   - **DOUBT-004: Evaluator Feedback → Iteration 1 *(Resolved)***
+-     - 🔹 Originally raised at
+-     - 🔹 Question
+-     - 🔹 Resolved at
+-     - 🔹 Resolution
+-   - **DOUBT-005: Evaluator Feedback → Iteration 2 *(Resolved)***
+-     - 🔹 Originally raised at
+-     - 🔹 Question
+-     - 🔹 Resolved at
+-     - 🔹 Resolution
+-   - **DOUBT-006: Evaluator Feedback → Iteration 3 *(Resolved)***
+-     - 🔹 Originally raised at
+-     - 🔹 Question
+-     - 🔹 Resolved at
+-     - 🔹 Resolution
+
+---
+
+*Index generated at 2026-05-07 12:59:53 UTC*

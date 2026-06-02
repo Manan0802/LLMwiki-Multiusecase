@@ -1,0 +1,108 @@
+{
+  "category_name": "Luggage Trolley Bag",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Size",
+          "options": [
+            "20\" (Cabin)",
+            "24\" (Medium)",
+            "28\" (Large)",
+            "18\" (Small Cabin)",
+            "22\" (Large Cabin)",
+            "26\" (Medium)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Shell Type",
+          "options": [
+            "Hard Shell",
+            "Soft Shell",
+            "Duffle"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "Material",
+          "options": [
+            "Polypropylene (PP)",
+            "ABS",
+            "Polyester",
+            "Polycarbonate (PC)",
+            "Aluminium"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Brand",
+          "options": [
+            "American Tourister",
+            "Safari",
+            "Mokobara",
+            "ASSEMBLY",
+            "Arrivel",
+            "AMERICANO",
+            "SWISS MOUNTAINEER",
+            "Travel Buddy",
+            "FLEXITUFF",
+            "TRAVEL TIME"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Lock Type",
+          "options": [
+            "TSA Approved",
+            "Combination Lock"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Warranty",
+          "options": [
+            "3 Years",
+            "5 Years",
+            "2 Years"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Number of Wheels",
+          "options": [
+            "8 Wheels",
+            "4 Wheels"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Custom Branding",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Features",
+          "options": [
+            "Expandable",
+            "Laptop Compartment",
+            "USB Port",
+            "Corner Protection"
+          ],
+          "input_type": "multi_select"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "spec_name": "Buyer Type",
+    "spec_values": [
+      "New Entrepreneur / Startup",
+      "MSME / Existing Business",
+      "Self-Help Group (SHG)"
+    ],
+    "reasoning": "Identifies the core buyer archetypes mentioned in the wiki, such as new entrepreneurs, MSMEs, and self-help groups, which have distinct procurement needs."
+  },
+  {
+    "spec_name": "Business Scale",
+    "spec_values": [
+      "Small-Scale / Startup",
+      "Medium-Scale Production",
+      "Large-Scale / Expansion"
+    ],
+    "reasoning": "Captures the buyer's intended production volume, from startups needing entry-level machines to established players seeking high-capacity systems for expansion."
+  }
+]

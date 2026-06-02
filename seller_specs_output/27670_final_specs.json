@@ -1,0 +1,120 @@
+{
+  "category_name": "Electronic Weighbridge",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Capacity",
+          "options": [
+            "60 Tonne",
+            "100 Tonne",
+            "50 Tonne",
+            "80 Tonne",
+            "40 Tonne",
+            "30 Tonne",
+            "120 Tonne",
+            "150 Tonne",
+            "20 Tonne",
+            "10 Tonne"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Platform Length",
+          "options": [
+            "16 m",
+            "18 m",
+            "12 m",
+            "9 m",
+            "15 m",
+            "24 m",
+            "7.5 m"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Installation Type",
+          "options": [
+            "Pitless",
+            "Pit Type",
+            "Portable"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "Platform Material",
+          "options": [
+            "Mild Steel (MS)",
+            "Concrete (RCC)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Application",
+          "options": [
+            "Public Weighbridge",
+            "Industrial",
+            "Mines",
+            "Agriculture",
+            "Construction"
+          ],
+          "input_type": "multi_select"
+        },
+        {
+          "spec_name": "Brand",
+          "options": [],
+          "input_type": "text_input"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Accuracy",
+          "options": [
+            "10 kg",
+            "5 kg",
+            "20 kg",
+            "2 kg"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Loadcell Type",
+          "options": [
+            "Digital",
+            "Analog",
+            "Compression Type",
+            "Double Ended Shear Beam"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Number of Loadcells",
+          "options": [
+            "6",
+            "8",
+            "4",
+            "10"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Certifications",
+          "options": [
+            "Legal Metrology Approved",
+            "OIML",
+            "ISO 9001",
+            "CE",
+            "IP68"
+          ],
+          "input_type": "multi_select"
+        }
+      ]
+    }
+  }
+}

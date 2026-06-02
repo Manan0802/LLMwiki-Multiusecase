@@ -1,0 +1,19 @@
+[
+  {
+    "spec_name": "Purchase Purpose",
+    "spec_values": [
+      "For Resale / Wholesale",
+      "For Corporate Gifting",
+      "For Company Use"
+    ],
+    "reasoning": "Captures the primary B2B procurement intent, based on the distinct buyer archetypes (Wholesalers, Gifting, Corporate Use) identified in the wiki."
+  },
+  {
+    "spec_name": "Branding Requirement",
+    "spec_values": [
+      "Custom Branding",
+      "No Branding / Standard"
+    ],
+    "reasoning": "Differentiates buyers needing product customization for gifting from those buying standard stock, a key qualifier mentioned in buyer call data."
+  }
+]

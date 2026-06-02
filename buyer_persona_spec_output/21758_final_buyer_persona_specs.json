@@ -1,0 +1,25 @@
+[
+  {
+    "spec_name": "Buyer Type",
+    "spec_values": [
+      "Developer / EPC",
+      "OEM / Manufacturer",
+      "System Integrator",
+      "Wholesaler / Dealer",
+      "Fabricator / End User"
+    ],
+    "reasoning": "Captures the buyer's role in the value chain, from large project execution to resale. Based on 'Buyer Archetypes' and 'Buyer Personas' in sections 9 and 10.1 of the wiki."
+  },
+  {
+    "spec_name": "Industry Application",
+    "spec_values": [
+      "Architectural & Building",
+      "Kitchen & Furniture",
+      "Industrial / Automation",
+      "Solar / Renewable Energy",
+      "Transport / Automotive",
+      "Retail & Fabrication"
+    ],
+    "reasoning": "Segments buyers by their end-use case, which strongly dictates profile type and technical needs. Based on the 'Industry Applications' table in Section 7.1 of the wiki."
+  }
+]

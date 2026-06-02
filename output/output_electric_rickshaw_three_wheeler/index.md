@@ -1,0 +1,476 @@
+# 📑 Category Index — Electric Rickshaw Three Wheeler
+
+> Generated on 2026-05-05 08:15:28 UTC
+
+This is the central dashboard for this category, linking to the full wiki article, execution logs, and source references.
+
+---
+
+## 📝 Category Overview
+
+> The Electric Rickshaw Three Wheeler category encompasses a range of three-wheeled, battery-powered vehicles pivotal to India's last-mile transportation ecosystem. These vehicles serve as essential…
+
+## 🔗 Traceability & Files
+
+- **📚 Wiki Page:** [electric_rickshaw_three_wheeler.md](electric_rickshaw_three_wheeler.md)
+- **📋 Execution Logs:** [logs.md](logs.md)
+- **📖 Source References:** [references.md](references.md)
+- **🤔 Agent Doubts:** [doubts.md](doubts.md)
+
+---
+
+## 🗺️ Wiki Structure
+
+- - **Quick Facts**
+-   - 🔹 Category
+-   - 🔹 Common Names
+-   - 🔹 Primary Use
+-   - 🔹 Key Specifications
+-   - 🔹 Price Range
+-   - 🔹 Popular Brands
+-   - 🔹 Key Standard
+-   - 🔹 Certifications
+-   - 🔹 MOQ
+- - **1. Category Overview**
+-   - 🔹 Passenger Rickshaws
+-   - 🔹 Cargo/Loader Rickshaws
+-   - 🔹 Specialized & High-Performance Models
+-   - 🔹 Barebones Models
+- - **2. Seller-Side Specifications**
+-   - 🔹 Use Type
+-   - 🔹 Brand
+-   - 🔹 Manufacturer
+-   - 🔹 Model
+-   - 🔹 Body Material
+-   - 🔹 Body Type
+-   - 🔹 Dala Size
+-   - 🔹 Seating Capacity
+-   - 🔹 Documentation
+-   - 🔹 Battery Inclusion
+-   - 🔹 Battery Type
+-   - 🔹 Number of Batteries
+-   - 🔹 Battery Capacity
+-   - 🔹 Battery Voltage
+-   - 🔹 Battery Warranty
+-   - 🔹 Battery Life
+-   - 🔹 Solar Integration
+-   - 🔹 Range per Charge
+-   - 🔹 Charging Time
+-   - 🔹 Charger Type
+-   - 🔹 Charger Specs
+-   - 🔹 Motor Power
+-   - 🔹 Motor Controller
+-   - 🔹 Motor & Controller Warranty
+-   - 🔹 Max Speed
+-   - 🔹 Load Capacity
+-   - 🔹 Vehicle Weight
+-   - 🔹 Chassis
+-   - 🔹 Suspension
+-   - 🔹 Shocker Size
+-   - 🔹 Brake Type
+-   - 🔹 Drivetrain
+-   - 🔹 Tire Size
+-   - 🔹 Tire Brand
+-   - 🔹 Wheels
+-   - 🔹 Dimensions
+-   - 🔹 Roof Type
+-   - 🔹 Certifications
+-   - 🔹 Applicable Standards
+-   - 🔹 Features
+-   - 🔹 Power Consumption
+- - **3. Buyer Specifications**
+-   - **Must-Have Specs**
+-     - 🔹 Use Type & Customization
+-     - 🔹 Brand
+-     - 🔹 Battery Type & Configuration
+-     - 🔹 Performance Metrics
+-     - 🔹 Documentation Status
+-     - 🔹 Size
+-   - **Nice-to-Have Specs**
+-     - 🔹 Body Material
+-     - 🔹 Suspension
+-     - 🔹 Color
+-     - 🔹 Warranty
+-   - 🔹 Buyer Terminology
+-   - 🔹 Quantity Expression
+-   - **Quality Signals**
+-     - 🔹 By Brand
+-     - 🔹 By Certification
+-     - 🔹 By Specification
+-     - 🔹 By Material
+-     - 🔹 By Use Case
+- - **4. Most Relevant Spec Combinations**
+-   - **Primary Variant Axes**
+-     - 🔹 Use Type & Body Style
+-     - 🔹 Battery Configuration
+-     - 🔹 Documentation Status
+-     - 🔹 Performance Category (L3 vs. L5)
+-   - **Common Named Product Profiles**
+-     - 🔹 Standard Passenger (L3, Lead-Acid)
+-     - 🔹 Enhanced Passenger (L3, Lead-Acid)
+-     - 🔹 High-Performance Passenger (L5, Lithium)
+-     - 🔹 Customized Heavy-Duty Loader
+-     - 🔹 Premium Solar Auto (L5)
+-     - 🔹 Barebones Model
+-   - 🔹 Spec Dependency Rules
+- - **5. Spec Contradictions & Flags**
+-   - **Price without Core Components (`manual-review`)**
+-     - 🔹 Issue
+-     - 🔹 Why it's suspicious
+-     - 🔹 Flag
+-   - 🔹 Implausible Price Point (`manual-review`)
+-   - **Data Variance**
+-     - 🔹 Why it's suspicious
+-     - 🔹 Flag
+-   - **Regulatory Non-Compliance Risk (`auto-reject` or `manual-review`)**
+-     - 🔹 Issue
+-     - 🔹 Why it's suspicious
+-     - 🔹 Flag
+-   - **Misleading Standard Claim (`soft-warning`)**
+-     - 🔹 Issue
+-     - 🔹 Why it's suspicious
+-     - 🔹 Flag
+- - **6. Price-Defining Specs & Variation**
+-   - **Primary Price Drivers (Ranked)**
+-     - **Inclusion of Core Components & Documents**
+-       - 🔹 Battery
+-       - 🔹 Documentation (On-Road vs. Ex-Showroom)
+-     - **Premium Features**
+-       - 🔹 Solar Panels
+-     - **Battery Configuration (Type & Count)**
+-       - 🔹 Lead-Acid Battery Count
+-       - 🔹 Lead-Acid vs. Lithium
+-     - 🔹 Body Material
+-     - 🔹 Motor Power & Performance Category
+-   - **Indicative Price Ranges (per unit)**
+-     - 🔹 Barebones (without battery/docs)
+-     - 🔹 Heavy Duty Loader (On-Road)
+-     - 🔹 Basic Passenger (4-Battery Lead-Acid, Ex-Showroom)
+-     - 🔹 Upgraded Passenger (5-Battery Lead-Acid, Ex-Showroom)
+-     - 🔹 Lithium Passenger (Ex-Showroom)
+-     - 🔹 High Voltage Passenger (60V Lithium, On-Road)
+-     - 🔹 Premium Solar Auto Model (On-Road)
+-   - 🔹 Volume Discounts & Negotiations
+-   - 🔹 Implausibly Low Price Points
+- - **7. Buyer Personas**
+-   - **1. The Individual Operator (Self-Employed)**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Timeline
+-   - **2. The Regional Distributor / Dealer**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Timeline
+-   - **3. The Commercial Transporter (SME)**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Timeline
+-   - **4. The Fleet Operator (e.g., Logistics, Ride-Hailing)**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Timeline
+-   - **5. The Component Specialist / Integrator**
+-     - 🔹 Driver
+-     - 🔹 RFQ Style
+-     - 🔹 Timeline
+- - **8. Seller Personas**
+-   - **1. The City Dealer / Wholesaler (Organized)**
+-     - 🔹 Description
+-     - 🔹 Listing Structure
+-     - 🔹 Trust Signals
+-     - 🔹 Extraction Difficulty
+-   - **2. The Regional Manufacturer & Customizer**
+-     - 🔹 Description
+-     - 🔹 Listing Structure
+-     - 🔹 Trust Signals
+-     - 🔹 Extraction Difficulty
+-   - **3. The Unorganized Assembler / Barebones Supplier**
+-     - 🔹 Description
+-     - 🔹 Listing Structure
+-     - 🔹 Trust Signals
+-     - 🔹 Extraction Difficulty
+-   - **4. The Foreign Manufacturer / Exporter**
+-     - 🔹 Description
+-     - 🔹 Listing Structure
+-     - 🔹 Trust Signals
+-     - 🔹 Extraction Difficulty
+- - **9. Listing Spec Tiers**
+-   - **PRIMARY (Must-Have for Filtering)**
+-     - 🔹 Use Type
+-     - 🔹 Documentation
+-     - 🔹 Battery Inclusion
+-     - 🔹 Load Capacity
+-     - 🔹 Seating Capacity
+-     - 🔹 Battery Type
+-     - 🔹 Number of Batteries
+-   - **SECONDARY (Important for Comparison)**
+-     - 🔹 Brand
+-     - 🔹 Motor Power
+-     - 🔹 Battery Capacity (Ah)
+-     - 🔹 Range per Charge
+-     - 🔹 Body Material
+-     - 🔹 Solar Integration
+-     - 🔹 Certifications
+-   - **TERTIARY (Detailed & Niche Specs)**
+-     - 🔹 Tire Size
+-     - 🔹 Suspension / Kamani Type
+-     - 🔹 Motor Controller
+-     - 🔹 Battery Warranty / Lifecycle
+-     - 🔹 Brake Type / Chassis Type
+-     - 🔹 Max Speed
+-     - 🔹 Wheels
+-     - 🔹 Dala Size / Dimensions / Roof type
+- - **Glossary**
+-   - 🔹 ARAI (Automotive Research Association of India)
+-   - 🔹 Auto Type / Auto Model
+-   - 🔹 Dala (Full/Half)
+-   - 🔹 Dealer Rate / Dealer's Price
+-   - 🔹 iCAT (International Centre for Automotive Technology)
+-   - 🔹 IS 182942023
+-   - 🔹 Kamani
+-   - 🔹 L3 Category
+-   - 🔹 L5 Category
+-   - 🔹 LFP (Lithium Iron Phosphate)
+-   - 🔹 Loha Body
+-   - 🔹 On-Road Price
+-   - 🔹 Sada
+-   - 🔹 Solar wala
+-   - 🔹 Sukha cell
+-   - 🔹 Tube Controller
+-   - 🔹 With/Without Papers
+- - **Wiki Metadata**
+-   - 🔹 Category Path
+-   - 🔹 Tags
+-   - 🔹 Sources Ingested
+-   - 🔹 Data Types
+-   - 🔹 Brands Covered
+-   - 🔹 Standards Referenced
+-   - 🔹 Market
+-   - 🔹 Last Updated
+
+## 📋 Log Sections
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total sources scanned
+- - 🔸 New/changed sources processed
+- - 🔸 Sources removed since last run
+- - **📊 Run Summary**
+- - **📂 Sources Inventory**
+- - **🔄 Step-by-Step Execution Log**
+-   - **Step 1: 📥 PICK SOURCES**
+-   - **Step 2: 🏷️ CATEGORY**
+-   - **Step 3: 🔍 CHECK WIKI**
+-   - **Step 4: 📝 CREATE**
+-     - 🔹 Sources 1-3/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 4-6/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 7-9/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 10-12/15
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 13-15/15
+-     - 🔹 Extraction Summary
+-   - **Step 5: 📊 EVALUATE**
+-   - **Step 6: 📥 PICK SOURCES**
+-   - **Step 7: 🏷️ CATEGORY**
+-   - **Step 8: 🔍 CHECK WIKI**
+-   - **Step 9: 🔄 UPDATE**
+-     - 🔹 Sources 1-3/5
+-     - 🔹 Extraction Summary
+-     - 🔹 Sources 4-5/5
+-     - 🔹 Extraction Summary
+-   - **Step 10: 📊 EVALUATE**
+-   - **Step 11: ✨ ENRICH**
+-     - 🔹 Rationale
+-     - 🔹 Inferred
+-     - 🔹 Updates made
+-     - 🔹 Top hit
+-     - 🔹 Rationale
+-     - 🔹 Inferred
+-     - 🔹 Updates made
+-     - 🔹 Top hit
+-     - 🔹 Rationale
+-     - 🔹 Inferred
+-     - 🔹 Updates made
+-     - 🔹 Top hit
+-     - 🔹 Rationale
+-     - 🔹 Inferred
+-     - 🔹 Updates made
+-     - 🔹 Top hit
+
+## 📖 Reference Sections
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total New References
+- - **📄 JSON Data Sources**
+-   - **1. `call 1.json`**
+-   - **2. `call 10.json`**
+-   - **3. `call 11.json`**
+-   - **4. `call 12.json`**
+-   - **5. `call 13.json`**
+-   - **6. `call 14.json`**
+-   - **7. `call 15.json`**
+-   - **8. `call 16.json`**
+-   - **9. `call 17.json`**
+-   - **10. `call 18.json`**
+-   - **11. `pdf 2-document-3a1000049367-8.json`**
+-   - **12. `pdf 3-document-3a1000520162-9.json`**
+-   - **13. `pdf 4-downloadfile-pdf-10.json`**
+-   - **14. `pdf 5-e-rickshaw-for-india-1.json`**
+-   - **15. `call 1.json`**
+-   - **16. `call 10.json`**
+-   - **17. `call 11.json`**
+-   - **18. `call 12.json`**
+-   - **19. `call 13.json`**
+-   - **20. `call 14.json`**
+-   - **21. `call 15.json`**
+-   - **22. `call 16.json`**
+-   - **23. `call 17.json`**
+-   - **24. `call 18.json`**
+-   - **25. `pdf 2-document-3a1000049367-8.json`**
+-   - **26. `pdf 3-document-3a1000520162-9.json`**
+-   - **27. `pdf 4-downloadfile-pdf-10.json`**
+-   - **28. `pdf 5-e-rickshaw-for-india-1.json`**
+-   - **29. `call 19.json`**
+-   - **30. `call 1.json`**
+-   - **31. `call 10.json`**
+-   - **32. `call 11.json`**
+-   - **33. `call 12.json`**
+-   - **34. `call 13.json`**
+-   - **35. `call 14.json`**
+-   - **36. `call 15.json`**
+-   - **37. `call 16.json`**
+-   - **38. `call 17.json`**
+-   - **39. `call 18.json`**
+-   - **40. `pdf 2-document-3a1000049367-8.json`**
+-   - **41. `pdf 3-document-3a1000520162-9.json`**
+-   - **42. `pdf 4-downloadfile-pdf-10.json`**
+-   - **43. `pdf 5-e-rickshaw-for-india-1.json`**
+-   - **44. `call 2.json`**
+-   - **45. `call 1.json`**
+-   - **46. `call 10.json`**
+-   - **47. `call 11.json`**
+-   - **48. `call 12.json`**
+-   - **49. `call 13.json`**
+-   - **50. `call 14.json`**
+-   - **51. `call 15.json`**
+-   - **52. `call 16.json`**
+-   - **53. `call 17.json`**
+-   - **54. `call 18.json`**
+-   - **55. `pdf 2-document-3a1000049367-8.json`**
+-   - **56. `pdf 3-document-3a1000520162-9.json`**
+-   - **57. `pdf 4-downloadfile-pdf-10.json`**
+-   - **58. `pdf 5-e-rickshaw-for-india-1.json`**
+-   - **59. `call 20.json`**
+-   - **60. `call 1.json`**
+-   - **61. `call 10.json`**
+-   - **62. `call 11.json`**
+-   - **63. `call 12.json`**
+-   - **64. `call 13.json`**
+-   - **65. `call 14.json`**
+-   - **66. `call 15.json`**
+-   - **67. `call 16.json`**
+-   - **68. `call 17.json`**
+-   - **69. `call 18.json`**
+-   - **70. `pdf 2-document-3a1000049367-8.json`**
+-   - **71. `pdf 3-document-3a1000520162-9.json`**
+-   - **72. `pdf 4-downloadfile-pdf-10.json`**
+-   - **73. `pdf 5-e-rickshaw-for-india-1.json`**
+-   - **74. `call 21.json`**
+-   - **75. `call 1.json`**
+-   - **76. `call 10.json`**
+-   - **77. `call 11.json`**
+-   - **78. `call 12.json`**
+-   - **79. `call 13.json`**
+-   - **80. `call 14.json`**
+-   - **81. `call 15.json`**
+-   - **82. `call 16.json`**
+-   - **83. `call 17.json`**
+-   - **84. `call 18.json`**
+-   - **85. `pdf 2-document-3a1000049367-8.json`**
+-   - **86. `pdf 3-document-3a1000520162-9.json`**
+-   - **87. `pdf 4-downloadfile-pdf-10.json`**
+-   - **88. `pdf 5-e-rickshaw-for-india-1.json`**
+-   - **89. `call 22.json`**
+- - **❓ Other Sources**
+-   - **1. `pdf 1-document-3a1000004029-7.json`**
+-   - **2. `pdf 1-document-3a1000004029-7.json`**
+-   - **3. `pdf 1-document-3a1000004029-7.json`**
+-   - **4. `pdf 1-document-3a1000004029-7.json`**
+-   - **5. `pdf 1-document-3a1000004029-7.json`**
+-   - **6. `pdf 1-document-3a1000004029-7.json`**
+- - **📎 Web_Search Sources**
+-   - **1. `WEB: what is a 24 tube controller for electric rickshaw`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **2. `WEB: what is a 24 tube controller for electric rickshaw`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **3. `WEB: what is a 24 tube controller for electric rickshaw`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **4. `WEB: what is a 24 tube controller for electric rickshaw`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **5. `WEB: what is a 24 tube controller for electric rickshaw`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **6. `WEB: what is a 24 tube controller for electric rickshaw`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **7. `WEB: "TATA ISI" standard for electric rickshaws`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **8. `WEB: e-rickshaw market in India report 2024`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **9. `WEB: iCAT vs ARAI approval for electric rickshaws India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+-   - **10. `WEB: L5 category electric three-wheeler regulations speed power India`**
+-     - 🔹 Agent Reasoning (Inferred)
+-     - 🔹 Wiki Updates Made
+-     - 🔹 Web Search Results
+
+## 🤔 Agent Doubt Log
+
+- - 🔸 🚀 Run
+- - 🔸 MCAT ID
+- - 🔸 Category
+- - 🔸 Total Doubts Raised This Run
+- - 🔸 Unresolved
+- - 🔸 Self-Resolved
+- - **✅ Self-Resolved Doubts**
+-   - **DOUBT-501: Seller-Side Specifications → Applicable Standards *(Resolved)***
+-     - 🔹 Originally raised at
+-     - 🔹 Question
+-     - 🔹 Resolved at
+-     - 🔹 Resolution
+-   - **DOUBT-002: Evaluator Feedback → Iteration 1 *(Resolved)***
+-     - 🔹 Originally raised at
+-     - 🔹 Question
+-     - 🔹 Resolved at
+-     - 🔹 Resolution
+-   - **DOUBT-003: Evaluator Feedback → Iteration 2 *(Resolved)***
+-     - 🔹 Originally raised at
+-     - 🔹 Question
+-     - 🔹 Resolved at
+-     - 🔹 Resolution
+
+---
+
+*Index generated at 2026-05-05 08:15:28 UTC*

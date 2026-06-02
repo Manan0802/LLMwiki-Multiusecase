@@ -1,0 +1,98 @@
+{
+  "category_name": "Cat 6 Cable",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Conductor",
+          "options": [
+            "Solid Bare Copper",
+            "Stranded Bare Copper"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Shielding",
+          "options": [
+            "U/UTP (Unshielded)",
+            "SFTP (Shielded)",
+            "Armored"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Packaging",
+          "options": [
+            "305 Meter Pull Box",
+            "305 Meter Drum",
+            "500 Meter Drum",
+            "1000 Meter Drum"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "Brand",
+          "options": [
+            "D-Link",
+            "Commscope",
+            "Polycab",
+            "Havells",
+            "V-Guard",
+            "Finolex",
+            "Belden",
+            "Panduit",
+            "KEI",
+            "RR Kabel"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Jacket Material",
+          "options": [
+            "PVC",
+            "FR-PVC",
+            "LSZH",
+            "PE (Polyethylene)"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Performance Standard",
+          "options": [
+            "ANSI/TIA-568-C.2",
+            "ISO/IEC 11801",
+            "EN 50173-1"
+          ],
+          "input_type": "multi_select"
+        },
+        {
+          "spec_name": "Application",
+          "options": [
+            "Indoor",
+            "Outdoor",
+            "Data Center",
+            "Industrial",
+            "PoE Support"
+          ],
+          "input_type": "multi_select"
+        },
+        {
+          "spec_name": "Conductor Gauge",
+          "options": [
+            "23 AWG",
+            "24 AWG"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    }
+  }
+}

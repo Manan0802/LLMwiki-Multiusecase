@@ -1,0 +1,109 @@
+{
+  "category_name": "Paper Plate Making Machine",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Machine Type",
+          "options": [
+            "Manual",
+            "Crank (Semi-automatic)",
+            "Hydraulic (Fully Auto)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Number of Dies",
+          "options": [
+            "Single Die",
+            "Double Die"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Production Capacity",
+          "options": [
+            "Up to 1500 pcs/hr",
+            "1501–3000 pcs/hr",
+            "3001–5000 pcs/hr",
+            "Above 5000 pcs/hr"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "Body Type",
+          "options": [
+            "Angle",
+            "Pipe",
+            "Full Channel Body"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Motor Power",
+          "options": [
+            "0.5 HP",
+            "1 HP",
+            "2 HP"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Die Size",
+          "options": [
+            "4–8 inch",
+            "4–14 inch",
+            "6–14 inch",
+            "10–18 inch"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Items Produced",
+          "options": [
+            "Dona / Bowl",
+            "Plate (Pattal)",
+            "Thali (Large Plate)",
+            "Buffer Plate"
+          ],
+          "input_type": "multi_select"
+        },
+        {
+          "spec_name": "Phase",
+          "options": [
+            "Single Phase",
+            "Three Phase"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Warranty",
+          "options": [
+            "6 Months",
+            "1 Year",
+            "2 Years",
+            "5 Years"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Paper Material Weight",
+          "options": [
+            "80–250 GSM",
+            "80–350 GSM",
+            "80–500 GSM"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    }
+  }
+}

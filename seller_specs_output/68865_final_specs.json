@@ -1,0 +1,77 @@
+{
+  "category_name": "AAC Blocks",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Block Thickness",
+          "options": [
+            "100 mm (4 in)",
+            "150 mm (6 in)",
+            "200 mm (8 in)",
+            "125 mm (5 in)",
+            "225 mm (9 in)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Quality Grade",
+          "options": [
+            "ISI Grade 1",
+            "ISI Grade 2"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "Compressive Strength",
+          "options": [
+            "3.0 N/mm²",
+            "4.0 N/mm²",
+            "5.0 N/mm²"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Dry Density",
+          "options": [
+            "551–650 kg/m³",
+            "651–750 kg/m³"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Block Type",
+          "options": [
+            "Standard Solid",
+            "Tongue and Groove"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Certifications",
+          "options": [
+            "ISI Mark",
+            "CIDCO Approved",
+            "BMC Approved",
+            "IGBC Certified",
+            "GRIHA Certified"
+          ],
+          "input_type": "multi_select"
+        },
+        {
+          "spec_name": "Brand",
+          "options": [],
+          "input_type": "text_input"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "category_name": "Electric Rickshaw Three Wheeler",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Use Type",
+          "options": [
+            "Passenger",
+            "Loader",
+            "School Van",
+            "Food Cart"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Documentation",
+          "options": [
+            "On-Road (with papers)",
+            "Ex-Showroom (no papers)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Battery Type",
+          "options": [
+            "Lead Acid",
+            "Lithium (Li-ion/LFP)"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "Load Capacity",
+          "options": [
+            "350 kg",
+            "500 kg",
+            "700–750 kg",
+            "800–1000 kg"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Seating Capacity",
+          "options": [
+            "4+1",
+            "3+1",
+            "7+1",
+            "2 Seater"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Motor Power",
+          "options": [
+            "1000 W",
+            "1200 W",
+            "1500 W",
+            "1100 W",
+            "650 W"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Brand",
+          "options": [
+            "Yatri",
+            "Mayuri",
+            "Dabang",
+            "Mahindra Electric",
+            "Kinetic Green",
+            "Atut Sangam",
+            "Arzoo",
+            "Vajra",
+            "Duo",
+            "Ayansh"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Body Material",
+          "options": [
+            "Steel",
+            "Iron (Loha)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Range per Charge",
+          "options": [
+            "90–100 km",
+            "100–120 km",
+            "120–150 km"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Certifications",
+          "options": [
+            "iCAT Approved",
+            "ARAI Approved"
+          ],
+          "input_type": "multi_select"
+        }
+      ]
+    }
+  }
+}

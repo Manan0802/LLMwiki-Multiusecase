@@ -1,0 +1,22 @@
+[
+  {
+    "spec_name": "Buyer Type",
+    "spec_values": [
+      "Developer / Contractor",
+      "Builder / Individual",
+      "Retailer / Wholesaler",
+      "End User (Personal Use)"
+    ],
+    "reasoning": "Captures the distinct procurement behaviours of key market segments, from large project developers to individual users, as detailed in the 'Buyer Archetypes' section."
+  },
+  {
+    "spec_name": "Purchase Purpose",
+    "spec_values": [
+      "New Construction (Large)",
+      "New Construction (Small)",
+      "For Resale / Stocking",
+      "Repair / Renovation"
+    ],
+    "reasoning": "Differentiates buyer intent based on the scale and nature of their project, from large new constructions to small repairs, as described in the 'Buyer Archetypes' section."
+  }
+]

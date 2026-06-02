@@ -1,0 +1,122 @@
+{
+  "category_name": "Self Drilling Screw",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Head Type",
+          "options": [
+            "Hex Head",
+            "Countersunk (CSK) Head",
+            "Truss Head",
+            "Pan Head",
+            "Flange Head",
+            "Wafer Head",
+            "Bugle Head"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Diameter",
+          "options": [
+            "5.5 mm (#12)",
+            "4.2 mm (#8)",
+            "4.8 mm (#10)",
+            "6.3 mm (#14)",
+            "3.9 mm (#7)",
+            "3.5 mm (#6)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Length",
+          "options": [
+            "25 mm (1 inch)",
+            "19 mm (3/4 inch)",
+            "13 mm (1/2 inch)",
+            "38 mm (1.5 inch)",
+            "50 mm (2 inch)",
+            "75 mm (3 inch)",
+            "100 mm (4 inch)",
+            "55 mm",
+            "150 mm"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "Material",
+          "options": [
+            "Carbon Steel (C1022)",
+            "SS 304",
+            "SS 410",
+            "SS 550",
+            "Mild Steel (MS)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Coating",
+          "options": [
+            "Zinc Plated",
+            "Dacromate Coated",
+            "Phosphated",
+            "Electropolyseal",
+            "Anti-Rust Coating"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Brand",
+          "options": [
+            "HP",
+            "Unbrako",
+            "TVS",
+            "Super Screws",
+            "LPS Bossard",
+            "Kundan Fasteners",
+            "SLG Fasteners",
+            "INOX",
+            "Stonex Screws",
+            "BDN Fasteners"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Drive Type",
+          "options": [
+            "Phillips (PH)",
+            "Hex",
+            "Torx",
+            "Slotted"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Washer",
+          "options": [
+            "EPDM Washer",
+            "Bonded Steel Washer",
+            "Without Washer"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Origin",
+          "options": [
+            "Domestic (Made in India)",
+            "Imported"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    }
+  }
+}

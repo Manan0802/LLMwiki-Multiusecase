@@ -1,0 +1,105 @@
+{
+  "category_name": "Automatic Car Washing Machine",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Wash Technology",
+          "options": [
+            "Brush (Soft Touch)",
+            "Brushless (Touchless)",
+            "360-degree Robotic Arm"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Wash Capacity",
+          "options": [
+            "Up to 5 Cars/hr",
+            "Up to 10 Cars/hr",
+            "Up to 12 Cars/hr",
+            "Up to 15 Cars/hr",
+            "Up to 20 Cars/hr"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Brand",
+          "options": [
+            "KKE",
+            "Nissan Clean India",
+            "FourWin",
+            "Schumak",
+            "KWE",
+            "KRE",
+            "Inventa Cleantec",
+            "MagicWash",
+            "WASH MASTER",
+            "Wash Champ"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "System Type",
+          "options": [
+            "Gantry (Roll-Over)",
+            "Tunnel (Conveyor)",
+            "Full Setup Package",
+            "Machine Only"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Integrated Dryer",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Control System",
+          "options": [
+            "PLC with HMI",
+            "Web Interface",
+            "Remote Control"
+          ],
+          "input_type": "multi_select"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Required Bay Dimensions",
+          "options": [
+            "10m×4.6m×4m",
+            "7.5m×3.8m×3.4m",
+            "20ft×12ft"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Body Material",
+          "options": [
+            "Hot-Dip Galvanized Steel",
+            "Mild Steel with ACP",
+            "Stainless Steel"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Certification",
+          "options": [
+            "ISO 9001"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    }
+  }
+}

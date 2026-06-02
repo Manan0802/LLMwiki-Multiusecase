@@ -1,0 +1,24 @@
+[
+  {
+    "spec_name": "Buyer Type",
+    "spec_values": [
+      "Industrial Contractor",
+      "Developer / Builder",
+      "Small Business / Home Use",
+      "Agricultural Use"
+    ],
+    "reasoning": "Captures the primary buyer segments identified in the wiki, each with distinct procurement needs for projects ranging from large industrial to small retail."
+  },
+  {
+    "spec_name": "Application",
+    "spec_values": [
+      "Industrial Roofing/Clad",
+      "Commercial Building",
+      "Residential Roofing",
+      "Decking / Shuttering",
+      "Infrastructure Project",
+      "Fencing / General Use"
+    ],
+    "reasoning": "Segments buyers based on the intended use case, from large-scale industrial roofing and structural decking to residential and general-purpose applications."
+  }
+]

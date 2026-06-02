@@ -1,0 +1,102 @@
+{
+  "category_name": "Colour Coated Roofing Sheet",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Thickness",
+          "options": [
+            "0.50 mm",
+            "0.45 mm",
+            "0.40 mm",
+            "0.60 mm",
+            "0.35 mm",
+            "0.80 mm"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Material Type",
+          "options": [
+            "PPGL (Galvalume)",
+            "PPGI (Galvanised Iron)",
+            "Fibre Cement",
+            "Aluminium",
+            "BGL (Bare Galvalume)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Brand",
+          "options": [],
+          "input_type": "text_input"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "Profile Type",
+          "options": [
+            "Trapezoidal (Hi-Rib)",
+            "Corrugated (Sinusoidal)",
+            "Tile Profile",
+            "Decking Profile"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Yield Strength",
+          "options": [
+            "550 MPa (G550)",
+            "350 MPa",
+            "240 MPa"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Metallic Coating",
+          "options": [
+            "AZ 150",
+            "AZ 120",
+            "Z 275",
+            "Z 120",
+            "AZ 70"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Length",
+          "options": [],
+          "input_type": "text_input"
+        },
+        {
+          "spec_name": "Standard",
+          "options": [
+            "IS 14246",
+            "ASTM A792/A792M",
+            "BIS 14871",
+            "IS 513",
+            "IS 277"
+          ],
+          "input_type": "multi_select"
+        },
+        {
+          "spec_name": "Application",
+          "options": [
+            "Industrial & PEB",
+            "Commercial",
+            "Residential",
+            "Infrastructure",
+            "Fencing & General Use"
+          ],
+          "input_type": "multi_select"
+        }
+      ]
+    }
+  }
+}

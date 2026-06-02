@@ -1,0 +1,126 @@
+{
+  "category_name": "Aluminium Profiles",
+  "finalized_specs": {
+    "finalized_primary_specs": {
+      "specs": [
+        {
+          "spec_name": "Profile Type",
+          "options": [
+            "T-Slot",
+            "Shutter",
+            "Partition",
+            "Door / Window Frame",
+            "Handle",
+            "Patti (Flat Bar)",
+            "T-Profile",
+            "Z-Profile",
+            "Edge Banding"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Dimensions",
+          "options": [],
+          "input_type": "text_input"
+        },
+        {
+          "spec_name": "Alloy Grade",
+          "options": [
+            "6063 (Architectural)",
+            "6061 (Structural)",
+            "6082"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_secondary_specs": {
+      "specs": [
+        {
+          "spec_name": "Finish",
+          "options": [
+            "Mill Finish",
+            "Powder Coated",
+            "Anodized",
+            "Rose Gold",
+            "Black",
+            "Gold",
+            "SS Finish (Brushed)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Temper",
+          "options": [
+            "T6",
+            "T5",
+            "T4"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Brand",
+          "options": [
+            "Jindal",
+            "Tataria",
+            "PAG",
+            "MITTAL EXTRUSIONS",
+            "ON"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    },
+    "finalized_tertiary_specs": {
+      "specs": [
+        {
+          "spec_name": "Application",
+          "options": [
+            "Window / Door Frames",
+            "Partitions",
+            "Kitchen / Wardrobe",
+            "Machine Frame",
+            "Racks / Shelving",
+            "Furniture",
+            "Automotive",
+            "Solar Panel Frame"
+          ],
+          "input_type": "multi_select"
+        },
+        {
+          "spec_name": "Thickness",
+          "options": [
+            "1.2 mm",
+            "1.5 mm",
+            "1.0 mm",
+            "1.6 mm",
+            "0.8 mm",
+            "2.0 mm",
+            "2.5 mm",
+            "3.0 mm"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Length",
+          "options": [
+            "12 ft (3.66 m)",
+            "10 ft (3.05 m)",
+            "16 ft (4.88 m)"
+          ],
+          "input_type": "radio_button"
+        },
+        {
+          "spec_name": "Compatible Board Thickness",
+          "options": [
+            "18 mm",
+            "16 mm",
+            "19 mm",
+            "12 mm"
+          ],
+          "input_type": "radio_button"
+        }
+      ]
+    }
+  }
+}
